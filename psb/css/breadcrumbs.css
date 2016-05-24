@@ -1,0 +1,11 @@
+/* Styles used to overide and change breadcrumbs across the site. */
+.breadcrumb {
+    padding: .9em;
+    border-bottom: none;
+    font-size: .9em;
+    line-height: 1.2em;
+}
+
+.breadcrumb a, .breadcrumb span.crumbs-current-page { 
+	margin: 0.8em;
+}

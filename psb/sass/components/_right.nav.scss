@@ -1,0 +1,16 @@
+.rhs-side-nav {
+    font-family: $body-text;
+    color: $dark-blue;
+    text-transform: uppercase;
+    padding: $gap-medium;
+    background-color: $light-grey;
+    max-height: 60px;
+    ul {
+        li{
+            list-style:none;
+            a {
+                color: $dark-blue;
+            }
+        }
+    }
+}

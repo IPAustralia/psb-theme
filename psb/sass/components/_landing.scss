@@ -1,0 +1,6 @@
+.node-type-landing-page section.block-bean {
+    background: $lighter-grey;
+    @include  section_padding(20);
+    } .ds-3col-stacked-equal {
+        @include  landing_page_group_block();
+}

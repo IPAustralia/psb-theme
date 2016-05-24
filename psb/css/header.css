@@ -1,0 +1,12 @@
+/* Header styles */
+.header {
+    background: #1e3048;
+    color:white;
+}
+
+.header a:visited {
+    color: white;
+}
+.header a {
+    color: white;
+}

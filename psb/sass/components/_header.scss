@@ -1,0 +1,161 @@
+header{
+    .logo {
+        margin: 0px;
+        padding:0px;
+        @media only screen and (max-width: $break-point-large) {
+            width:39%;
+        }
+        @media only screen and (max-width: $break-point-medium) {
+            width:39%;
+        }
+        @media only screen and (max-width: $break-point-midsmall) {
+            width:50%;
+        }
+        img {
+            margin-top: 40px;
+            width: 84%;
+            @media only screen and (max-width: $break-point-medium - 1) {
+                width: 100%;
+                margin-top: 15px;
+                margin-bottom:10px;
+            }
+        }
+    }
+    .header {
+        background: $dark-blue;
+        color: $white;
+        padding: 0 0 $gap-small 0px;
+        @media only screen and (max-width: $break-point-medium - 1) {
+            padding-bottom:10px;
+            border-bottom:2px solid $charcoal;
+        }
+        .header-right {
+            padding-right: 0px;
+            @media only screen and (max-width: $break-point-large) {
+                float:right;
+                width:61%;
+                padding:0px;
+            } 
+            section{
+                float: right;
+                margin-top: 20px;
+                margin-left:20px;
+                ul {
+                    list-style: none;
+                    margin: 0px;
+                    padding: 0px;
+                    li {
+                        float: left;
+                        a {
+                            display: block;
+                            color: $charcoal;
+                            line-height: 10px;
+                        }
+                    }
+                }
+                @media only screen and (max-width: $break-point-large) {
+                    margin-left:5px;
+                    &.block-search-api-page {
+                        width:200px;
+                    }
+                } 
+                @media only screen and (max-width: $break-point-medium - 1) {
+                    display:none;
+                    &.block-search-api-page {
+
+                        width: 100%;
+
+                    }
+                } 
+
+            }
+            a {
+                color: $charcoal;
+            }
+
+            .block-search-api-page {
+                background: $light-grey none repeat scroll 0 0;
+                clear: both;
+                padding: 0;
+                width: 360px;
+                input.form-text {
+                    background: transparent none repeat scroll 0 0;
+                    border: 0 none;
+                    box-shadow: none;
+                    float: left;
+                    height: auto;
+                    padding: 13px 20px 15px;
+                    width: 260px;
+                    @include placeholder-color($charcoal);
+                    @media only screen and (max-width: $break-point-large) {
+                        width: 140px;
+                        padding: 13px 15px 15px;
+                    } 
+                    @media only screen and (max-width: $break-point-medium - 1) {
+                        width: 80%;
+                        padding: 13px 15px 15px;
+                    } 
+                }
+                .form-group {
+                    margin:0px;
+                }
+                .form-submit {
+                    @include background-image('link-search-26px.png');
+                    border: medium none;
+                    float: right;
+                    height: 48px;
+                    margin-right: 11px;
+                    padding: 0;
+                    text-indent: -9999px;
+                    width: 33px;
+                    &:active{
+                        box-shadow: none;
+                    }
+                }
+            }
+            .block-menu {
+                li {
+                    padding: 10px 10px 10px 0px
+                }
+                a {
+                    /*font-weight: 600;*/
+                    font-size: 14px;
+                    padding: 0px 10px 0 0;
+                    border-right: 1px solid $charcoal;
+                    &:hover {
+                        background: transparent;
+                        text-decoration: underline;
+                    }
+                    &:focus {
+                        background: transparent;
+                    }
+                }
+                .last {
+                    padding-right: 0px;
+                    a {
+                        padding-right: 0px;
+                        border:none;
+                    }
+                }
+            }
+
+        }
+        .responsive-search-icon{
+            position: absolute;
+            width: 35px;
+            height: 45px;
+            right: 65px;
+            top: 22px;
+            cursor: pointer;
+            @include background-image('link-search-26px.png');
+            text-indent: -9999px;
+            background-size: auto 22px;
+            &.opened {
+                @include background-image('close-cross.png');
+                background-size: auto auto;
+            }
+        }
+
+    }
+
+}

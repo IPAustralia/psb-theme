@@ -1,0 +1,58 @@
+name = PSB
+description = Responsive theme for the PSB website (www.psb.gov.au). Based on Bootstrap.
+core = 7.x
+base theme = bootstrap
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Regions
+;;;;;;;;;;;;;;;;;;;;;
+
+; ---------------------------------------------
+; | page_top (scripts)                        |
+; | header                                    |
+; | navigation                                |
+; | breadcrumbs                               |
+; | page title                                |
+; | content_top (e.g. patent lifecycle block) |
+; | sidebar_first | content | sidebar second  |
+; | content_bottom (e.g. case studies block)  |
+; | footer                                    |
+; | page_bottom (scripts)                     |
+; ---------------------------------------------
+
+regions[header]         = 'Top Bar'
+regions[highlighted]    = 'Highlighted'
+regions[help]           = 'Help'
+regions[content]        = 'Content'
+regions[sidebar_first]  = 'Left hand sidebar'
+regions[sidebar_second] = 'Right hand sidebar'
+regions[content_top]    = 'Content top'
+regions[content_bottom] = 'Content bottom'
+regions[footer]         = 'Footer'
+regions[page_top]       = 'Page top'
+regions[page_bottom]    = 'Page bottom'
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Features
+;;;;;;;;;;;;;;;;;;;;;
+
+features[] = logo
+features[] = favicon
+features[] = main_menu
+features[] = secondary_menu
+
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Stylesheets
+;;;;;;;;;;;;;;;;;;;;;
+
+stylesheets[all][] = css/style.css
+stylesheets[print][] = css/print.css
+
+;;;;;;;;;;;;;;;;;;;;;
+;; Scripts
+;;;;;;;;;;;;;;;;;;;;;
+
+scripts[] = js/script.js
