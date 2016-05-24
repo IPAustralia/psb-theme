@@ -1,0 +1,12 @@
+body.page-registered-attorneys-directory-of-attorneys .field {
+	margin:.2em 0;
+}
+
+body.page-registered-attorneys-directory-of-attorneys article.node-attorney {
+	border-top: 1px solid #fff;
+	padding: .3em 0 1.2em 0;
+}
+
+body.page-registered-attorneys-directory-of-attorneys .views-exposed-form .views-exposed-widget .form-submit {
+    margin-top: 0;
+}

@@ -1,0 +1,10 @@
+.container {
+    @media only screen and (min-width: $break-point-xlarge) {
+        width: 1180px;
+    }
+    @media only screen and (min-width: $break-point-large) {
+        max-width: 1180px;
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}

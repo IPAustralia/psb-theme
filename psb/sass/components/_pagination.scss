@@ -1,0 +1,49 @@
+.pagination {
+    > li {
+        > a {
+            color: $black;
+        }
+        > span {
+            color: $black;
+        }
+    }
+    > .active {
+        > span {
+            z-index: 2;
+            color: $dark-blue;
+            cursor: default;
+            background-color: $grey;
+            border-color: $grey;
+            &:hover {
+                z-index: 2;
+                color: $dark-blue;
+                cursor: default;
+                background-color: $grey;
+                border-color: $grey;
+            }
+            &:focus {
+                z-index: 2;
+                color: $dark-blue;
+                cursor: default;
+                background-color: $grey;
+                border-color: $grey;
+            }
+        }
+        > a {
+            &:hover {
+                z-index: 2;
+                color: $dark-blue;
+                cursor: default;
+                background-color: $grey;
+                border-color: $grey;
+            }
+            &:focus {
+                z-index: 2;
+                color: $dark-blue;
+                cursor: default;
+                background-color: $grey;
+                border-color: $grey;
+            }
+        }
+    }
+}

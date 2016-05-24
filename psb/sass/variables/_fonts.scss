@@ -1,0 +1,55 @@
+$font-title-normal: 'merriweather-regular', serif;
+$font-title-bold: 'merriweather-bold', serif;
+
+$font-body-normal: 'opensans-regular', sans-serif;
+$font-body-semibold: 'opensans-semibold', sans-serif;
+$font-body-bold: 'opensans-bold', sans-serif;
+
+$body-text: normal 16px $font-body-normal;
+
+$title-h1: normal 60px $font-title-normal;
+$title-h2: normal 38px $font-title-normal;
+$title-h3: normal 32px $font-title-normal;
+$title-h4: normal 24px $font-title-normal;
+$title-h5: normal 20px $font-title-normal;
+$title-h6: normal 18px $font-title-normal;
+$title-h7: normal 16px $font-title-normal;
+
+$title-h1-bold: normal 60px $font-title-bold;
+$title-h2-bold: normal 38px $font-title-bold;
+$title-h3-bold: normal 32px $font-title-bold;
+$title-h4-bold: normal 24px $font-title-bold;
+$title-h5-bold: normal 20px $font-title-bold;
+$title-h6-bold: normal 18px $font-title-bold;
+$title-h7-bold: normal 16px $font-title-bold;
+
+@font-face {
+  font-family: 'merriweather-bold';
+  src: url('fonts/merriweather-bold.woff2') format('woff2'),
+       url('fonts/merriweather-bold.woff') format('woff'),
+       url('fonts/merriweather-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'merriweather-regular';
+  src: url('fonts/merriweather-regular.woff2') format('woff2'),
+       url('fonts/merriweather-regular.woff') format('woff'),
+       url('fonts/merriweather-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'opensans-bold';
+  src: url('fonts/opensans-bold.woff2') format('woff2'),
+       url('fonts/opensans-bold.woff') format('woff'),
+       url('fonts/opensans-bold.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'opensans-regular';
+  src: url('fonts/opensans-regular.woff2') format('woff2'),
+       url('fonts/opensans-regular.woff') format('woff'),
+       url('fonts/opensans-regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'opensans-semibold';
+  src: url('fonts/opensans-semibold.woff2') format('woff2'),
+       url('fonts/opensans-semibold.woff') format('woff'),
+       url('fonts/opensans-semibold.ttf') format('truetype');
+}
