@@ -538,7 +538,7 @@ header .header {
       /*font-weight: 600;*/
       font-size: 14px;
       padding: 0px 10px 0 0;
-      border-right: 1px solid #333; }
+      border-right: 1px solid #fff; }
       header .header .header-right .block-menu a:hover {
         background: transparent;
         text-decoration: underline; }
@@ -582,7 +582,7 @@ footer {
           width: 100%; } }
       footer .block-menu-block .nav li a {
         text-decoration: none;
-        font: normal 17px montserratregular;
+        font: normal 18px "merriweather-bold", serif;
         padding: 20px 18px 20px 0;
         background: transparent url("../images/arrow-right.png") right center no-repeat;
         float: left; }
@@ -604,15 +604,13 @@ footer {
           footer .block-menu-block .nav li ul li a {
             font-weight: normal;
             padding: 0 10px 16px 0px;
-            text-decoration: underline;
             font: normal 16px "opensans-regular", sans-serif;
-            font-size: 15px;
             background: transparent; }
             footer .block-menu-block .nav li ul li a:hover, footer .block-menu-block .nav li ul li a:active, footer .block-menu-block .nav li ul li a:focus {
               text-decoration: none;
               background: transparent; }
   footer .block-menu .block-title {
-    font: normal 16px montserratregular;
+    font: normal 18px "merriweather-bold", serif;
     font-size: 18px;
     margin: 0px;
     padding: 40px 10px 0px; }
@@ -623,7 +621,7 @@ footer {
       padding: 10px 10px 0 0; }
       footer .block-menu .nav li a {
         padding: 0px 10px 0 0;
-        border-right: 1px solid #333;
+        border-right: 1px solid #143d55;
         font-size: 13px;
         line-height: 12px; }
         footer .block-menu .nav li a:hover {
