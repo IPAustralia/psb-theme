@@ -13,7 +13,7 @@ header{
         }
         img {
             margin-top: 40px;
-            width: 84%;
+            width: 100%;
             @media only screen and (max-width: $break-point-medium - 1) {
                 width: 100%;
                 margin-top: 15px;
@@ -78,6 +78,7 @@ header{
                 clear: both;
                 padding: 0;
                 width: 360px;
+                border-radius: 6px;
                 input.form-text {
                     background: transparent none repeat scroll 0 0;
                     border: 0 none;

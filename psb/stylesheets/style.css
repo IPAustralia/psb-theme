@@ -432,7 +432,7 @@ header .logo {
       width: 50%; } }
   header .logo img {
     margin-top: 40px;
-    width: 84%; }
+    width: 100%; }
     @media only screen and (max-width: 767px) {
       header .logo img {
         width: 100%;
@@ -483,7 +483,8 @@ header .header {
       background: #eeefee none repeat scroll 0 0;
       clear: both;
       padding: 0;
-      width: 360px; }
+      width: 360px;
+      border-radius: 6px; }
       header .header .header-right .block-search-api-page input.form-text {
         background: transparent none repeat scroll 0 0;
         border: 0 none;

@@ -644,23 +644,6 @@ function stickyMenu() {
     }
 }
 
-
-//bold the "IP Australia" in the footer
-jQuery(document).ready(function () {
-        jQuery('h2.block-title').html(function (i, html) {
-            return html.replace(/(\w+\s\w+)/, '<strong>$1</strong>')
-    });
-});
-
-
-
-
-
-
-
-
-
-
 // Third party scripts
 function equalHeight($container) {
 
