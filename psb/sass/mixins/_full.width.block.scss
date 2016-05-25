@@ -23,7 +23,7 @@
     .field-items {
         p {
             a { 
-                @include rounded-button-with-arrrow();
+                @include rect-button-with-arrrow();
                 margin-top: $gap-medium;
                 &:hover {
                     border-color:white;

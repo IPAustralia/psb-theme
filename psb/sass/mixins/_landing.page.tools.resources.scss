@@ -156,7 +156,7 @@ section#id_of_section {
 
                         a {
                             margin-top: $gap-medium;
-                            @include rounded-button-with-arrrow;
+                            @include rect-button-with-arrrow;
                             border-color: white;
                             cursor: pointer;
                             :hover {

@@ -20,7 +20,7 @@ header {
                     width:48px;
                     height:34px;
                     &:hover, &:active, &:focus {
-                        background-color:#fff !important;
+                        background-color: $dark-blue !important;
                     }
                     @include background-image('close-cross.png');
                     &.collapsed {
@@ -32,7 +32,7 @@ header {
             }
         }
         &.navbar-default {
-            background: $dark-blue;
+            background: $white;
         }
         &.is_stuck{
             bottom: auto !important;
@@ -96,7 +96,7 @@ header {
                 &.icon-home {
                     :hover, &.active {
                         /*@include background-image('home.png');*/
-                        background-color:$dark-blue;
+                        background-color:$white;
                     }
                     a {
                         display: none;
@@ -120,11 +120,12 @@ header {
                 }
 
                 a {
+                    text-transform: uppercase;
                     padding: 19px 21px 15px 21px;
                     display: block;
                     cursor: pointer;
-                    color: white;
-                    font: normal 16px 'montserratregular', sans-serif;
+                    color: $dark-blue;
+                    font: $nav-bold;
                     display: block;
                     line-height:46px;
                     border: 0px;
@@ -262,7 +263,7 @@ header {
                     }
                 }
                 .learn-more {
-                    @include rounded-button-with-arrrow(transparent,$charcoal, 16px, 'arrow-right-charcoal-transparent.png');
+                    @include rect-button-with-arrrow(transparent,$charcoal, 16px, 'arrow-right-charcoal-transparent.png');
                     float: right;
                     margin-bottom:20px;
                     &:hover {

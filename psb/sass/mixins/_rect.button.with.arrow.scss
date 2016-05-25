@@ -1,9 +1,9 @@
-@mixin rounded-button-with-arrrow($background-color:transparent, $line-color:white, $font-size:14px, $arrow-icon:'arrow-right-transparent.png') {
+@mixin rect-button-with-arrrow($background-color:$blue, $line-color:$blue, $font-size:16px, $arrow-icon:'arrow-right-transparent.png') {
     border: 2px solid $line-color;
     background: $background-color;
     padding: 16px 35px 16px;
     display:inline-block;
-    border-radius: 100px;
+    //border-radius: 100px;
     color:$line-color;
     font-size: $font-size;
     text-transform: uppercase;
@@ -21,6 +21,6 @@
     &:hover {
         text-decoration: none;
         background: $background-color;
-        border: 2px solid $charcoal;
+        //border: 2px solid $charcoal;
     }
 }

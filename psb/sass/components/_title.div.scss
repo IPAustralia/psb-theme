@@ -2,13 +2,13 @@
 Main title DIV with background image and underline 
 */
 div.title {
-    background: #efefef;
+    background: transparent;
     padding: 80px 0px;
     border-bottom: 2px solid white;
     @include background-image('tablet.jpg');
     background-size: cover;
     h1 {
-        color: white;
+        color: $dark-blue;
         border:0px;
         margin: 0px;
         &:after {
