@@ -1,3 +1,11 @@
+body {
+    article {
+        font: $body-text;
+        p {
+            font: $body-text;
+        }
+    }
+}
 article {
     @media only screen and (max-width: $break-point-midsmall) {
         padding:0px;
@@ -33,3 +41,9 @@ article {
 
     //hide print logo
     #print-logo {display:none;}
+
+    .container {
+        .container {
+            width: auto;
+        }
+    }
