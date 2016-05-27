@@ -48,7 +48,7 @@ header{
                         float: left;
                         a {
                             display: block;
-                            color: $charcoal;
+                            color: $white;
                             line-height: 10px;
                         }
                     }
@@ -70,7 +70,7 @@ header{
 
             }
             a {
-                color: $charcoal;
+                color: $white;
             }
 
             .block-search-api-page {
@@ -119,8 +119,7 @@ header{
                     padding: 10px 10px 10px 0px
                 }
                 a {
-                    /*font-weight: 600;*/
-                    font-size: 14px;
+                    font-size: 16px;
                     padding: 0px 10px 0 0;
                     border-right: 1px solid $white;
                     &:hover {
