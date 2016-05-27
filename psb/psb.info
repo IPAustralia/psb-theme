@@ -49,6 +49,7 @@ features[] = secondary_menu
 ;;;;;;;;;;;;;;;;;;;;;
 
 stylesheets[all][] = css/style.css
+stylesheets[all][] = css/font-awesome.min.css
 stylesheets[print][] = css/print.css
 
 ;;;;;;;;;;;;;;;;;;;;;
