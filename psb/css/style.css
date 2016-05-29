@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @font-face {
   font-family: 'merriweather-bold';
   src: url("fonts/merriweather-bold.woff2") format("woff2"), url("fonts/merriweather-bold.woff") format("woff"), url("fonts/merriweather-bold.ttf") format("truetype"); }
@@ -180,6 +181,7 @@ The main tabs on the page
 /*
 apply sticky styling to sticky sub menu
 */
+/*Add icons using font awesome (http://fontawesome.io/) */
 /* Slider */
 .slick-slider {
   position: relative;
@@ -478,7 +480,7 @@ header .header {
           header .header .header-right section.block-search-api-page {
             width: 100%; } }
     header .header .header-right a {
-      color: #333; }
+      color: #fff; }
     header .header .header-right .block-search-api-page {
       background: #eeefee none repeat scroll 0 0;
       clear: both;
@@ -714,14 +716,19 @@ header nav .nav-tabs {
       /*@include background-image('home.png');*/
       background-color: #fff; }
     header nav .nav-tabs li.icon-home a {
-      display: none;
-      text-indent: -9999px;
-      background: transparent url("../images/home.png") center center no-repeat;
-      width: 70px;
-      display: block; }
+      line-height: 0;
+      /* Collapse the original line */
+      visibility: hidden; }
+      header nav .nav-tabs li.icon-home a:after {
+        visibility: visible;
+        display: block;
+        position: absolute;
+        content: "";
+        font-size: 3em;
+        color: #143d55;
+        font-family: FontAwesome; }
       header nav .nav-tabs li.icon-home a:hover, header nav .nav-tabs li.icon-home a:active, header nav .nav-tabs li.icon-home a:focus {
         border: 0px !important;
-        background: transparent url("../images/home.png") center center no-repeat;
         cursor: pointer; }
     @media only screen and (max-width: 942px) {
       header nav .nav-tabs li.icon-home {
@@ -841,20 +848,20 @@ header nav .nav-tabs {
         header nav .nav-tabs .dropdown-menu .megamenu-tab-contents__title p {
           display: none; } }
     header nav .nav-tabs .dropdown-menu .learn-more {
-      border: 2px solid #333;
-      background: transparent;
+      border: 2px solid #27749c;
+      background: #27749c;
       padding: 16px 35px 16px;
       display: inline-block;
-      color: #333;
+      color: #fff;
       font-size: 16px;
       text-transform: uppercase;
-      font-family: "merriweather-regular", serif;
+      font-family: "opensans-bold", sans-serif;
       line-height: 21px;
       text-decoration: none;
       float: right;
       margin-bottom: 20px; }
       header nav .nav-tabs .dropdown-menu .learn-more:after {
-        background: transparent url("../images/arrow-right-charcoal-transparent.png") center center no-repeat;
+        background: transparent url("../images/arrow-right-transparent.png") center center no-repeat;
         display: inline-block;
         width: 9px;
         height: 15px;
@@ -862,7 +869,7 @@ header nav .nav-tabs {
         margin: 0 0 -2px 10px; }
       header nav .nav-tabs .dropdown-menu .learn-more:hover {
         text-decoration: none;
-        background: transparent; }
+        background: #27749c; }
       @media only screen and (max-width: 767px) {
         header nav .nav-tabs .dropdown-menu .learn-more {
           margin: 0px;
@@ -891,8 +898,9 @@ header nav .nav-tabs {
             border: 0px;
             border-top: 1px solid #d2d7d3; } }
         header nav .nav-tabs .dropdown-menu .megamenu-level-2 li a {
-          font: normal 18px "merriweather-regular", serif;
-          /*font-family: $font-title-normal;*/
+          text-transform: none;
+          font-family: "merriweather-bold", serif;
+          font-size: 16px;
           float: left;
           display: inline-block;
           padding-right: 20px;
@@ -921,6 +929,7 @@ header nav .nav-tabs {
           header nav .nav-tabs .dropdown-menu .megamenu-level-2 li .megamenu-level-3 li {
             width: 100%; }
             header nav .nav-tabs .dropdown-menu .megamenu-level-2 li .megamenu-level-3 li a {
+              color: #337ab7;
               font: normal 16px "opensans-regular", sans-serif;
               line-height: 30px;
               background: none;
@@ -931,7 +940,6 @@ header nav .nav-tabs {
               @media only screen and (max-width: 767px) {
                 header nav .nav-tabs .dropdown-menu .megamenu-level-2 li .megamenu-level-3 li a {
                   float: none;
-                  font: normal 16px "opensans-regular", sans-serif;
                   width: 100%;
                   padding: 20px 20px 20px 40px !important;
                   margin: 0px;
@@ -941,7 +949,7 @@ header nav .nav-tabs {
                   background: transparent url("../images/arrow-right-charcoal-transparent.png") 20px center no-repeat;
                   background-size: auto 10px;
                   background-color: #eeefee !important;
-                  color: #143d55 !important; } }
+                  color: #337ab7 !important; } }
           @media only screen and (max-width: 767px) {
             header nav .nav-tabs .dropdown-menu .megamenu-level-2 li .megamenu-level-3 {
               /*display:none;*/ } }
@@ -993,48 +1001,30 @@ header nav .nav-tabs {
 .region-sidebar-first .sidenav-hide {
   display: none; }
 
-/* Garths css */
-/* ide nav code */
-.menu-block-wrapper.menu-block-5.menu-name-main-menu {
-  /*    border-top-style: solid;
-      border-top-width: 5px;*/ }
-
 aside {
   /* side nav diplay none */ }
   aside .region-sidebar-first.well {
-    background-color: #fff !important;
+    background-color: transparent !important;
     border: 0 none;
     border-radius: 0 !important;
-    box-shadow: 0 1px 1px transparent inset !important;
     min-height: 20px !important;
     padding: 0 !important; }
-    aside .region-sidebar-first.well ul li:first-child {
-      border-top: 6px solid #000; }
-    aside .region-sidebar-first.well ul li.active > a, aside .region-sidebar-first.well ul li.active:hover {
+    aside .region-sidebar-first.well ul li.active > a {
+      color: #143d55; }
+    aside .region-sidebar-first.well ul li.active:hover {
       background: #eeefee; }
     aside .region-sidebar-first.well ul li a {
-      font-family: robotobold, sans-serif;
-      color: #000;
-      text-transform: uppercase;
+      font: normal 20px "merriweather-regular", serif;
+      color: #27749c;
       padding: 20px 15px;
-      border-bottom: 2px dotted #eeefee; }
+      border-bottom: 1px solid #d2d7d3; }
       aside .region-sidebar-first.well ul li a:hover {
-        background: transparent;
+        color: #143d55;
         text-decoration: underline; }
     aside .region-sidebar-first.well ul li li:first-child {
       border-top: 0px; }
     aside .region-sidebar-first.well ul li li a {
-      /*border:0px;*/
-      /*border-top: 2px dotted $lighter-grey;*/
       padding: 20px 35px; }
-      aside .region-sidebar-first.well ul li li a:before {
-        content: '>';
-        font-family: sans-serif;
-        width: 15px;
-        font-size: 9px;
-        display: inline-block;
-        opacity: 0.7;
-        margin-left: -15px; }
   aside .region-sidebar-first .sidenav-hide {
     display: none; }
   @media only screen and (max-width: 640px) {
@@ -1171,10 +1161,10 @@ div.title {
   background: transparent;
   padding: 80px 0px;
   border-bottom: 2px solid white;
-  background: transparent url("../images/tablet.jpg") center center no-repeat;
+  background: transparent url("../images/bg/home.jpg") center bottom no-repeat;
   background-size: cover; }
   div.title h1 {
-    color: #143d55;
+    color: #fff;
     border: 0px;
     margin: 0px; }
     div.title h1:after {
@@ -1183,17 +1173,17 @@ div.title {
       border-top: 6px solid white;
       width: 141px; }
 
-body.section-patents div.title {
-  background: transparent url("../images/patents-landing.jpg") center center no-repeat; }
+body.section-become-a-registered-attorney div.title {
+  background: transparent url("../images/bg/become-registered.jpg") center bottom no-repeat; }
 
-body.section-trade-marks div.title {
-  background: transparent url("../images/tm-banner.jpg") center center no-repeat; }
+body.section-for-registered-attorneys div.title {
+  background: transparent url("../images/bg/community.jpg") center bottom no-repeat; }
 
-body.section-designs div.title {
-  background: transparent url("../images/designs-banner.jpg") center center no-repeat; }
+body.section-for-the-public div.title {
+  background: transparent url("../images/bg/registered.jpg") center bottom no-repeat; }
 
-body.section-plant-breeders-rights div.title {
-  background: transparent url("../images/pbr-banner.jpg") center center no-repeat; }
+body.section-resources div.title {
+  background: transparent url("../images/bg/resources.jpg") center bottom no-repeat; }
 
 .breadcrumbs {
   background: #eeefee;
@@ -1244,6 +1234,9 @@ article table {
     vertical-align: top;
     text-align: left;
     word-wrap: break-word; }
+
+h1 {
+  font: normal 60px "merriweather-regular", serif; }
 
 #print-logo {
   display: none; }

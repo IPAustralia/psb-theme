@@ -5,10 +5,10 @@ div.title {
     background: transparent;
     padding: 80px 0px;
     border-bottom: 2px solid white;
-    @include background-image('tablet.jpg');
+    @include background-image($bg-title-home, center, bottom);
     background-size: cover;
     h1 {
-        color: $dark-blue;
+        color: $white;
         border:0px;
         margin: 0px;
         &:after {
@@ -20,23 +20,23 @@ div.title {
     }
 }
 
-body.section-patents {
+body.section-become-a-registered-attorney {
     div.title {
-        @include background-image('patents-landing.jpg');
+        @include background-image($bg-title-become, center, bottom);
     }
 }
-body.section-trade-marks {
+body.section-for-registered-attorneys {
     div.title {
-        @include background-image('tm-banner.jpg');
+        @include background-image($bg-title-registered, center, bottom);
     }
 }
-body.section-designs {
+body.section-for-the-public {
     div.title {
-        @include background-image('designs-banner.jpg');
+        @include background-image($bg-title-community, center, bottom);
     }
 }
-body.section-plant-breeders-rights {
+body.section-resources {
     div.title {
-        @include background-image('pbr-banner.jpg');
+        @include background-image($bg-title-resources, center, bottom);
     }
 }

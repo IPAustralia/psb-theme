@@ -1,0 +1,8 @@
+/*Add icons using font awesome (http://fontawesome.io/) */
+
+@mixin fa-icon($icon:"\f0da", $color:$dark-blue, $size:16px) {
+	content: $icon;
+    font-size: $size;
+    color: $color;
+    font-family: FontAwesome;
+}

@@ -99,15 +99,18 @@ header {
                         background-color:$white;
                     }
                     a {
-                        display: none;
-                        text-indent: -9999px;
-                        @include background-image('home.png');
-                        width: 70px;
-                        display: block;
+
+                        line-height: 0; /* Collapse the original line */
+                        visibility: hidden;
+                        &:after {
+                            visibility: visible;
+                            display: block;
+                            padding-top: 20px;
+                            @include fa-icon('\f015', $dark-blue, 3em);
+                        }
 
                         &:hover, &:active, &:focus {
                             border: 0px !important;
-                            @include background-image('home.png');
                             cursor:pointer;
                         }
                     }
@@ -263,7 +266,8 @@ header {
                     }
                 }
                 .learn-more {
-                    @include rect-button-with-arrrow(transparent,$charcoal, 16px, 'arrow-right-charcoal-transparent.png');
+                    //@include rect-button-with-arrrow(transparent,$charcoal, 16px, 'arrow-right-charcoal-transparent.png');
+                    @include rect-button-with-arrrow();
                     float: right;
                     margin-bottom:20px;
                     &:hover {
@@ -301,8 +305,9 @@ header {
                             border-top:1px solid $grey;
                         }
                         a {
-                            font:$title-h6;
-                            /*font-family: $font-title-normal;*/
+                            text-transform: none;
+                            font-family:$font-title-bold;
+                            font-size:16px;
                             float: left;
                             display: inline-block;
                             padding-right: 20px;
@@ -332,6 +337,7 @@ header {
                             li {
                                 width: 100%;
                                 a{
+                                    color:$link-blue;
                                     font:$body-text;
                                     line-height: 30px;
                                     background: none;
@@ -342,7 +348,6 @@ header {
                                     }
                                     @media only screen and (max-width: $break-point-medium - 1) {
                                         float:none;
-                                        font:$body-text;
                                         width:100%;
                                         padding: 20px 20px 20px 40px !important;
                                         margin:0px;
@@ -352,7 +357,7 @@ header {
                                         @include background-image('arrow-right-charcoal-transparent.png', $x:20px);
                                         background-size:auto 10px;
                                         background-color:$light-grey !important;
-                                        color:$dark-blue !important;
+                                        color:$link-blue !important;
                                     }
                                 }
                             }
