@@ -1271,3 +1271,62 @@ h1 {
   font-size: 15px; }
 .page-search .search-snippet-info h4 {
   font-size: 15px; }
+
+#block-block-1 {
+  background-image: url("../images/bg/home.jpg"); }
+
+#block-block-1 ul {
+  float: right;
+  list-style-type: none; }
+
+#block-block-1 li {
+  background-color: rgba(39, 116, 156, 0.7);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid white; }
+
+#block-block-1 h6 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #fff;
+  margin-top: 5%; }
+
+#block-block-1 li a {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase; }
+
+#block-block-1 a {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  background-color: #27749c;
+  margin-bottom: 10px;
+  padding: 10px; }
+
+#block-block-1 a:hover {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(39, 116, 156, 0.7);
+  margin-bottom: 10px;
+  padding: 10px; }
+
+#block-quicktabs-homepage-search ul {
+  margin-top: 5%;
+  margin-bottom: 0px;
+  text-align: center; }
+
+#block-quicktabs-homepage-search li.active {
+  background-color: #d2d7d3; }
+
+#block-quicktabs-homepage-search a {
+  margin-top: 5%; }
+
+#block-block-6 {
+  background-color: #d2d7d3; }
+
+#block-block-6 ul {
+  text-align: center; }
