@@ -162,8 +162,8 @@ function psb_preprocess_block(&$vars) {
 	$bid = $vars['block']->module . '-' . $vars['block']->delta;
 	// some blocks need a <div class="container"> inside the <section>,
 	// wrapping the block content. add a theme suggestion for that.
-	if (in_array($bid, array(BLOCK_ID_FOOTER_MENU, BLOCK_ID_FOOTER_SUB_MENU)) ||
-		$vars['block']->region == 'content') /*|| $vars['block']->region == 'content_top')*/ {
+	if (in_array($bid, array(BLOCK_ID_FOOTER_MENU, BLOCK_ID_FOOTER_SUB_MENU)) /*||
+		$vars['block']->region == 'content'*/) /*|| $vars['block']->region == 'content_top')*/ {
 		$vars['theme_hook_suggestions'][] = 'block__with_container';
 	} 
 }
