@@ -609,3 +609,122 @@
 	width:100%;
 	color:$charcoal;
 }
+
+// for public - relationship
+/*********** WHITE 3 BOX ************/
+
+#block-block-56 .container {
+}
+#block-block-56 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:10%;
+}
+#block-block-56 h4 {
+	font: $title-h6;
+	color:$dark-blue;
+}
+#block-block-56 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-56 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-56 .col-fixed {
+	width:300px;
+}
+#block-block-56 #public-relationship-FIXME1 {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-56 #public-relationship-FIXME2 {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-56 #public-relationship-FIXME3 {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-56 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+//public - complaints
+/************* GREY 3 box ************/
+#block-block-61 .container {
+	background-color:$grey;
+}
+#block-block-61 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+}
+#block-block-61 #text {
+	margin-left:10%;
+	color: $dark-blue
+}
+#block-block-61 h7 {
+	font: $title-h7;
+}
+#block-block-61 h4 {
+	font: $title-h6;
+	color: $dark-blue;
+}
+#block-block-61 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-61 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-61 .col-fixed {
+	width:300px;
+}
+
+#block-block-61 ul {
+	list-style-type:none;
+}
+
+#block-block-61 #public-complaints-FIXME1 {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-61 #public-complaints-FIXME2 {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-61 #public-complaints-FIXME3 {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-61 hr {
+	width:100%;
+	color:$charcoal;
+}

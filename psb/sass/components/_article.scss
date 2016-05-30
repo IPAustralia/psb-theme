@@ -1,6 +1,7 @@
 body {
     article {
         font: $body-text;
+        padding-top:20px;
         p {
             font: $body-text;
         }
@@ -51,3 +52,7 @@ h1 {
             width: auto;
         }
     }
+
+section.feature-bg {
+    background :transparent url('../images/bg/top-feature.png') center top;
+}

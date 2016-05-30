@@ -1,0 +1,22 @@
+.view-content {
+	ul {
+		list-style-type: none;
+	}
+}
+article.node-attorney {
+	width: 60%;
+	margin: 10px 0px;
+	padding: 10px 15px;
+	background: $light-grey;
+	border: 1px solid $grey;
+	h2 {
+		margin-top: 10px;
+		font: $title-h2;
+		font-size: 24px;
+		color: $dark-blue;
+		border-bottom: 1px solid $grey;
+	}
+	footer {
+		display:none;
+	}
+}
