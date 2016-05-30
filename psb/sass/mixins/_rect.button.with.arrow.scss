@@ -11,12 +11,11 @@
     line-height: $font-size + 5;
     text-decoration: none;
     &:after {
-        @include background-image($arrow-icon);
+        @include fa-icon('\f0da', $white, 1.5em);
         display:inline-block;
-        width: 9px;
-        height:15px;
-        content:'';
-        margin: 0 0 -2px 10px;
+        //width: 9px;
+        //height:15px;
+        margin: 0 0 -3px 10px;
     }
     &:hover {
         text-decoration: none;
