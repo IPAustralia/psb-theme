@@ -1183,18 +1183,12 @@ Main title DIV with background image and underline
 div.title {
   background: transparent;
   padding: 80px 0px;
-  border-bottom: 2px solid white;
   background: transparent url("../images/bg/home.jpg") center bottom no-repeat;
   background-size: cover; }
   div.title h1 {
     color: #fff;
     border: 0px;
     margin: 0px; }
-    div.title h1:after {
-      content: '';
-      display: block;
-      border-top: 6px solid white;
-      width: 141px; }
 
 body.section-become-a-registered-attorney div.title {
   background: transparent url("../images/bg/become-registered.jpg") center bottom no-repeat; }
@@ -1268,6 +1262,27 @@ h1 {
 .container .container {
   width: auto; }
 
+section.feature-bg {
+  background: transparent url("../images/bg/top-feature.png") center top; }
+
+.view-content ul {
+  list-style-type: none; }
+
+article.node-attorney {
+  width: 60%;
+  margin: 10px 0px;
+  padding: 10px 15px;
+  background: #eeefee;
+  border: 1px solid #d2d7d3; }
+  article.node-attorney h2 {
+    margin-top: 10px;
+    font: normal 38px "merriweather-regular", serif;
+    font-size: 24px;
+    color: #143d55;
+    border-bottom: 1px solid #d2d7d3; }
+  article.node-attorney footer {
+    display: none; }
+
 .page-search .search-info {
   display: none; }
 .page-search .search-snippet-info h1 {
@@ -1295,5 +1310,77 @@ h1 {
   font-size: 15px; }
 .page-search .search-snippet-info h4 {
   font-size: 15px; }
+
+#block-block-1 {
+  background-image: url("../images/bg/home.jpg"); }
+
+#block-block-1 ul {
+  float: right;
+  list-style-type: none; }
+
+#block-block-1 li {
+  background-color: rgba(39, 116, 156, 0.7);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid white; }
+
+#block-block-1 h6 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #fff;
+  margin-top: 5%; }
+
+#block-block-1 li a {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase; }
+
+#block-block-1 a {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  background-color: #27749c;
+  margin-bottom: 10px;
+  padding: 10px; }
+
+#block-block-1 a:hover {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(39, 116, 156, 0.7);
+  margin-bottom: 10px;
+  padding: 10px; }
+
+#block-block-6 form {
+  text-align: center; }
+
+#block-block-6 input[type=search]
+#block-block-6 ul {
+  margin-top: 5%;
+  margin-bottom: 0px;
+  text-align: center; }
+
+#block-block-6 li.active a {
+  background-color: #d2d7d3;
+  color: #27749c;
+  font: normal 16px "opensans-bold", sans-serif;
+  margin-bottom: -10px; }
+
+#block-block-6 li a {
+  background-color: #fff;
+  color: #d2d7d3;
+  font: normal 16px "opensans-bold", sans-serif;
+  margin-bottom: -10px; }
+
+#block-block-6 ul {
+  text-align: center; }
+
+#block-block-6 p {
+  text-align: center;
+  background-color: #d2d7d3;
+  padding-bottom: 20px;
+  font: normal 16px "opensans-bold", sans-serif; }
 
 /*# sourceMappingURL=style.css.map */
