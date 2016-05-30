@@ -22,15 +22,11 @@ header {
                     &:hover, &:active, &:focus {
                         background-color: $dark-blue !important;
                     }
-                    &:before { 
-                        @include fa-icon('\f00d', $white, 3em );
+                    @include background-image('close-cross.png');
+                    &.collapsed {
+                        @include background-image('burger.png');
                     }
 
-                }
-                button.collapsed {
-                    &:before {  
-                        @include fa-icon('\f0c9', $white, 3em );
-                    }
                 }
 
             }
@@ -119,12 +115,10 @@ header {
                         }
                     }
                     @media only screen and (max-width: $break-point-large - 50) {
-                        display: none;
+                       display: none;
                     }
                     @media only screen and (max-width: $break-point-medium - 1) {
-                        display: block;
-                        line-height: 16px; /* Collapse the original line */
-                        visibility: visible;
+                       display: block;
                     }
                 }
 
@@ -229,8 +223,24 @@ header {
                 }
 
                 i {
-                    //not used in this instance.
-                    display: none;
+                    float: left;
+                    height: 80px;
+                    width: 90px;
+                    &.icon-patents {
+                        @include background-image('mm-icon-patent.gif', left, top);
+                    }
+                    &.icon-trade-marks {
+                        @include background-image('mm-icon-tm.gif', left, top);
+                    }
+                    &.icon-designs {
+                        @include background-image('mm-icon-design.gif', left, top);
+                    }
+                    &.icon-plant-breeders-rights {
+                        @include background-image('mm-icon-pbr.gif', left, top);
+                    }
+                    &.icon-understanding-ip, &.icon-ip-infringement, &.icon-tools--resources {
+                        display: none;
+                    }
                     @media only screen and (max-width: $break-point-medium - 1) {
                         display:none;
                     }
@@ -238,7 +248,7 @@ header {
                 .megamenu-tab-contents__title {
                     a {
                         float: left;
-                        font:$title-h4-bold;
+                        font:$title-h4;
                         /*font-family: $font-title-normal;*/
                         text-transform: uppercase;
                     }
@@ -318,14 +328,6 @@ header {
                                 background-color:$light-grey !important;
                                 color:$dark-blue !important;
                             }
-                            &:after {
-                                margin-left:10px;
-                                padding-bottom:-5px;
-                                position: relative;
-                                top: 3px;
-                                @include fa-icon('\f0da', $dark-blue, 1.3em);
-                                height:30px;
-                            }
                         }
                         .megamenu-level-3 {
                             padding:0px;
@@ -356,11 +358,6 @@ header {
                                         background-size:auto 10px;
                                         background-color:$light-grey !important;
                                         color:$link-blue !important;
-                                    }
-                                    &:after {
-                                        margin-left:0;
-                                        padding-bottom:0;
-                                        content:none;
                                     }
                                 }
                             }
