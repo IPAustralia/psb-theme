@@ -150,7 +150,7 @@
 
 #block-block-16 h3 {
 	font: $title-h4;
-	color: $blue;
+	color: $dark-blue;
 }
 
 #block-block-16 #resources-forms {
@@ -200,7 +200,6 @@
 }
 
 //trans-tasman-whatever
-
 #block-block-21 #mre {
 	color: #fff;
 	font-size: 18px;
@@ -218,3 +217,395 @@
 	padding: 0 11%;
 }
 
+//benefits of registration
+/************* WHITE 4 box ************/
+
+#block-block-26 .container {
+}
+#block-block-26 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:10%;
+}
+#block-block-26 h4 {
+	font: $title-h6;
+	color:$dark-blue;
+}
+#block-block-26 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-26 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-26 .col-fixed {
+	width:200px;
+}
+#block-block-26 #become-benefit-practice {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-26 #become-benefit-title {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-26 #become-benefit-partnership {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-26 #become-benefit-privileges {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-26 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+//registration requirements
+/************* GREY 3 box ************/
+
+#block-block-31 .container {
+	background-color:$grey;
+}
+#block-block-31 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+}
+#block-block-31 #text {
+	margin-left:10%;
+	color: $dark-blue
+}
+#block-block-31 h7 {
+	font: $title-h7;
+}
+#block-block-31 h4 {
+	font: $title-h6;
+}
+#block-block-31 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-31 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-31 .col-fixed {
+	width:300px;
+}
+
+#block-block-31 ul {
+	list-style-type:none;
+}
+
+#block-block-31 #become-registration-practice {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-31 #become-registration-registration {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-31 #become-registration-incorporation {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-31 hr {
+	width:100%;
+	color:$charcoal;
+}
+//registration process
+#block-block-36 h2 {
+	font: $title-h3;
+}
+#block-block-36 h7 {
+	font: $title-h6;
+}
+#block-block-36 h4 {
+	font: $title-h6;
+	color: $dark-blue;
+}
+
+#block-block-36 #text {
+	margin-left:10%;
+	color: $dark-blue;
+}
+#block-block-36 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-36 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-36 .col-fixed {
+	width:300px;
+}
+#block-block-36 #become-process-tm {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-36 #become-process-pat {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-36 #become-process-incorporated {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-26 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+//managing your registration
+/*********** WHITE 4 BOX ************/
+
+#block-block-41 .container {
+}
+#block-block-41 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:10%;
+}
+#block-block-41 h4 {
+	font: $title-h6;
+	color:$dark-blue;
+}
+#block-block-41 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-41 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-41 .col-fixed {
+	width:200px;
+}
+#block-block-41 #registered-managing-renewals {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-41 #registered-managing-restoring {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-41 #registered-managing-voluntary {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-41 #registered-managing-restoration {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-41 hr {
+	width:100%;
+	color:$charcoal;
+}
+//CPE
+/************* GREY 3 box ************/
+#block-block-46 .container {
+	background-color:$grey;
+}
+#block-block-46 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+}
+#block-block-46 #text {
+	margin-left:10%;
+	color: $dark-blue
+}
+#block-block-46 h7 {
+	font: $title-h7;
+}
+#block-block-46 h4 {
+	font: $title-h6;
+	color: $dark-blue;
+}
+#block-block-46 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-46 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-46 .col-fixed {
+	width:300px;
+}
+
+#block-block-46 ul {
+	list-style-type:none;
+}
+
+#block-block-46 #registered-cpe-mandatory {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-46 #registered-cpe-timeframe {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-46 #registered-cpe-providers {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-46 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+//managing complaints
+/*********** WHITE 4 BOX ************/
+
+#block-block-51 .container {
+}
+#block-block-51 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:10%;
+}
+#block-block-51 h4 {
+	font: $title-h6;
+	color:$dark-blue;
+}
+#block-block-51 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-51 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-51 .col-fixed {
+	width:200px;
+}
+#block-block-51 #registered-complaints-grounds {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-discipline {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-hearings {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-appearing {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+}
+#block-block-51 #registered-complaints-findings {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-appointing {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-appealing {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-should {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+}
+#block-block-51 hr {
+	width:100%;
+	color:$charcoal;
+}

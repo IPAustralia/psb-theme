@@ -1403,7 +1403,7 @@ h1 {
 
 #block-block-16 h3 {
   font: normal 24px "merriweather-regular", serif;
-  color: #27749c; }
+  color: #143d55; }
 
 #block-block-16 #resources-forms {
   background-color: #fff;
@@ -1459,5 +1459,350 @@ h1 {
 
 #block-block-21 .container {
   padding: 0 11%; }
+
+/************* WHITE 4 box ************/
+#block-block-26 h2 {
+  font: normal 32px "merriweather-regular", serif;
+  color: #143d55;
+  margin-left: 10%; }
+
+#block-block-26 h4 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-26 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-26 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 1em; }
+
+#block-block-26 .col-fixed {
+  width: 200px; }
+
+#block-block-26 #become-benefit-practice {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-26 #become-benefit-title {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-26 #become-benefit-partnership {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-26 #become-benefit-privileges {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-26 hr {
+  width: 100%;
+  color: #333; }
+
+/************* GREY 3 box ************/
+#block-block-31 .container {
+  background-color: #d2d7d3; }
+
+#block-block-31 h2 {
+  font: normal 32px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-31 #text {
+  margin-left: 10%;
+  color: #143d55; }
+
+#block-block-31 h7 {
+  font: normal 16px "merriweather-regular", serif; }
+
+#block-block-31 h4 {
+  font: normal 18px "merriweather-regular", serif; }
+
+#block-block-31 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-31 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 1em; }
+
+#block-block-31 .col-fixed {
+  width: 300px; }
+
+#block-block-31 ul {
+  list-style-type: none; }
+
+#block-block-31 #become-registration-practice {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-31 #become-registration-registration {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-31 #become-registration-incorporation {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-31 hr {
+  width: 100%;
+  color: #333; }
+
+#block-block-36 h2 {
+  font: normal 32px "merriweather-regular", serif; }
+
+#block-block-36 h7 {
+  font: normal 18px "merriweather-regular", serif; }
+
+#block-block-36 h4 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-36 #text {
+  margin-left: 10%;
+  color: #143d55; }
+
+#block-block-36 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-36 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 1em; }
+
+#block-block-36 .col-fixed {
+  width: 300px; }
+
+#block-block-36 #become-process-tm {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-36 #become-process-pat {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-36 #become-process-incorporated {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-26 hr {
+  width: 100%;
+  color: #333; }
+
+/*********** WHITE 4 BOX ************/
+#block-block-41 h2 {
+  font: normal 32px "merriweather-regular", serif;
+  color: #143d55;
+  margin-left: 10%; }
+
+#block-block-41 h4 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-41 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-41 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 1em; }
+
+#block-block-41 .col-fixed {
+  width: 200px; }
+
+#block-block-41 #registered-managing-renewals {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-41 #registered-managing-restoring {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-41 #registered-managing-voluntary {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-41 #registered-managing-restoration {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-41 hr {
+  width: 100%;
+  color: #333; }
+
+/************* GREY 3 box ************/
+#block-block-46 .container {
+  background-color: #d2d7d3; }
+
+#block-block-46 h2 {
+  font: normal 32px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-46 #text {
+  margin-left: 10%;
+  color: #143d55; }
+
+#block-block-46 h7 {
+  font: normal 16px "merriweather-regular", serif; }
+
+#block-block-46 h4 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-46 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-46 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 1em; }
+
+#block-block-46 .col-fixed {
+  width: 300px; }
+
+#block-block-46 ul {
+  list-style-type: none; }
+
+#block-block-46 #registered-cpe-mandatory {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-46 #registered-cpe-timeframe {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-46 #registered-cpe-providers {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-46 hr {
+  width: 100%;
+  color: #333; }
+
+/*********** WHITE 4 BOX ************/
+#block-block-51 h2 {
+  font: normal 32px "merriweather-regular", serif;
+  color: #143d55;
+  margin-left: 10%; }
+
+#block-block-51 h4 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-51 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-51 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 1em; }
+
+#block-block-51 .col-fixed {
+  width: 200px; }
+
+#block-block-51 #registered-complaints-grounds {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-51 #registered-complaints-discipline {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-51 #registered-complaints-hearings {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-51 #registered-complaints-appearing {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-51 #registered-complaints-findings {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-51 #registered-complaints-appointing {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-51 #registered-complaints-appealing {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-51 #registered-complaints-should {
+  background-color: #d2d7d3;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-51 hr {
+  width: 100%;
+  color: #333; }
 
 /*# sourceMappingURL=style.css.map */
