@@ -74,7 +74,7 @@ header{
             }
 
             .block-search-api-page {
-                background: $light-grey none repeat scroll 0 0;
+                background: $white none repeat scroll 0 0;
                 clear: both;
                 padding: 0;
                 width: 360px;
@@ -101,16 +101,26 @@ header{
                     margin:0px;
                 }
                 .form-submit {
-                    @include background-image('link-search-26px.png');
+                    //@include background-image('link-search-26px.png');
+                    background: transparent;
                     border: medium none;
                     float: right;
                     height: 48px;
-                    margin-right: 11px;
+                    //margin-right: 51px;
                     padding: 0;
-                    text-indent: -9999px;
                     width: 33px;
+                    line-height: 0;
+                    visibility: hidden;
+                    margin-top: -3px;
+                    position: absolute;
+                    right: 50px;
                     &:active{
                         box-shadow: none;
+                    }
+                    &:after {
+                        @include fa-icon('\f002', $grey, 2em);
+                        line-height: 20px;
+                        visibility: visible;
                     }
                 }
             }
