@@ -1,4 +1,6 @@
-<div id="registered-managing" class="row">
+<section id="block-block-41">
+<div class="container">
+	<div id="registered-managing" class="row">
 	<h1>Managing your registration</h1>
 	<div id="registered-managing-renewals" class="col-md-3">
 		<h4>Renewals</h4>
@@ -24,5 +26,6 @@
 		<hr />
 		<a href="node/13886">Find out more></a>&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 	</div>
-
+	</div>
 </div>
+</section>

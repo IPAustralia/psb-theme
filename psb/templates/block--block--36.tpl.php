@@ -1,3 +1,5 @@
+<section id="block-block-36">
+<div class="container">
 <div id="become-process" class="row">
 	<h1>Registration process</h1>
 	<p>Make sure you understand how to compile your registration application</p>
@@ -19,5 +21,6 @@
 		<hr />
 		<a href="node/13816">Find out more</a>&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 	</div>
-
+	</div>
 </div>
+</section>

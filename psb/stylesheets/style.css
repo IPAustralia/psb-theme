@@ -1277,7 +1277,9 @@ h1 {
 
 #block-block-1 ul {
   float: right;
-  list-style-type: none; }
+  list-style-type: none;
+  padding-top: 10%;
+  padding-bottom: 10%; }
 
 #block-block-1 li {
   background-color: rgba(39, 116, 156, 0.7);
@@ -1288,24 +1290,26 @@ h1 {
 #block-block-1 h6 {
   font: normal 18px "merriweather-regular", serif;
   color: #fff;
-  margin-top: 5%; }
+  padding-top: 10%; }
 
 #block-block-1 li a {
+  background-color: rgba(39, 116, 156, 0.7);
   color: #fff;
   font-size: 18px;
   font: "opensans-semibold", sans-serif;
   text-transform: uppercase; }
 
-#block-block-1 a {
+#block-block-1 #mre {
   color: #fff;
   font-size: 18px;
   font: "opensans-semibold", sans-serif;
   text-transform: uppercase;
   background-color: #27749c;
   margin-bottom: 10px;
+  margin-top: 10px;
   padding: 10px; }
 
-#block-block-1 a:hover {
+#block-block-1 #mre:hover {
   color: #fff;
   font-size: 18px;
   font: "opensans-semibold", sans-serif;
@@ -1315,25 +1319,66 @@ h1 {
   padding: 10px; }
 
 #block-block-6 form {
-  text-align: center; }
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 10px;
+  background-color: #d2d7d3; }
 
-#block-block-6 input[type=search]
+#block-block-6 input[type=search] {
+  width: 30%;
+  font-size: 18px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box; }
+
+#block-block-6 input[type=submit] {
+  width: 10%;
+  background-color: #27749c;
+  color: white;
+  padding: 12px 20px;
+  font-size: 18px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase; }
+
+#block-block-6 input[type=submit]:hover {
+  background-color: rgba(39, 116, 156, 0.7); }
+
 #block-block-6 ul {
   margin-top: 5%;
   margin-bottom: 0px;
   text-align: center; }
 
+#block-block-6 ul .nav {
+  border-bottom: 0 !important; }
+
+#block-block-6 ul .nav-tabs {
+  border-bottom: 0 !important; }
+
 #block-block-6 li.active a {
   background-color: #d2d7d3;
   color: #27749c;
   font: normal 16px "opensans-bold", sans-serif;
-  margin-bottom: -10px; }
+  margin-bottom: -1px !important; }
 
 #block-block-6 li a {
   background-color: #fff;
   color: #d2d7d3;
   font: normal 16px "opensans-bold", sans-serif;
-  margin-bottom: -10px; }
+  margin-bottom: -1px;
+  border: 1px solid #d2d7d3; }
+
+#block-block-6 .nav-tabs > li, .nav-pills > li {
+  float: none;
+  display: inline-block; }
+
+#block-block-6 .nav-tabs, .nav-pills {
+  text-align: center; }
 
 #block-block-6 ul {
   text-align: center; }
@@ -1342,4 +1387,75 @@ h1 {
   text-align: center;
   background-color: #d2d7d3;
   padding-bottom: 20px;
-  font: normal 16px "opensans-bold", sans-serif; }
+  font: normal 16px "opensans-bold", sans-serif;
+  padding-top: 2em; }
+
+#block-block-6 .container {
+  margin-top: 0.5em !important; }
+
+#block-block-16 .container {
+  background-color: #143d55; }
+
+#block-block-16 h2 {
+  font: normal 32px "merriweather-regular", serif;
+  color: #fff;
+  margin-left: 11%; }
+
+#block-block-16 h3 {
+  font: normal 24px "merriweather-regular", serif;
+  color: #27749c; }
+
+#block-block-16 #resources-forms {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: center; }
+
+#block-block-16 #resources-legislation {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: center; }
+
+#block-block-16 #resources-faqs {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: center; }
+
+#block-block-16 .fa {
+  font-size: 5em;
+  text-align: center;
+  color: #ddd;
+  padding-top: 0.5em; }
+
+#block-block-16 ul {
+  text-align: left;
+  list-style-type: none;
+  padding-bottom: 1em; }
+
+#block-block-16 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-16 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 4px; }
+
+#block-block-16 .col-fixed {
+  width: 300px; }
+
+#block-block-21 #mre {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  background-color: #27749c;
+  margin-top: 10px;
+  padding: 10px; }
+
+#block-block-21 h2 {
+  font: normal 32px "merriweather-regular", serif; }
+
+#block-block-21 .container {
+  padding: 0 11%; }

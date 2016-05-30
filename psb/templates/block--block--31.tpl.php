@@ -1,4 +1,6 @@
-<div id="become-registration" class="row">
+<section id="block-block-31">
+<div class="container">
+	<div id="become-registration" class="row">
 	<h1>Registration requirements</h1>
 	<p>There are different types of requirements for registereing as a patent or trade mark attorney</p>
 	<div id="become-registration-practice" class="col-md-4">
@@ -27,6 +29,6 @@
 		<hr />
 		<a href="node/13816">Find out more></a>&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 	</div> 
-
-
+	</div>
 </div>
+</section>

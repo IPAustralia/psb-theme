@@ -1,4 +1,6 @@
-<div id="registered-complaints" class="row">
+<section id="block-block-51">
+<div class="container">
+	<div id="registered-complaints" class="row">
 	<h1>Dealing with complaints</h1>
 	<div id="registered-complaints-grounds" class="col-md-3">
 		<h4>Grounds for complaint</h4>
@@ -70,5 +72,5 @@
 		<hr />
 		<a href="node/13851">Find out more</a>&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 	</div>
-
 </div>
+</section>

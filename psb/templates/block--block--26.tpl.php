@@ -1,3 +1,5 @@
+<section id="block-block-26">
+<div class="container">
 <div id="become-benefits" class="row">
 	<h1>Benefits of Registration</h1>
 	<div id="become-benefit-practice" class="col-md-3">
@@ -25,3 +27,5 @@
 		<a href="node/13811">Find out more></a>&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 	</div>
 </div>
+</div>
+</section>

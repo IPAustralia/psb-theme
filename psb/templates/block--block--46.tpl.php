@@ -1,4 +1,6 @@
-<div id="registered-cpe" class="row">
+<section id="block-block-46">
+<div class="container">
+	<div id="registered-cpe" class="row">
 	<h1>Continuing Professional Education (CPE)</h1>
 	<div id="registered-cpe-mandatory" class="col-md-4">
 		<h4>Manadatory CPE Requirements</h4>
@@ -19,5 +21,6 @@
 		<a href="node/66">View all requirements></a>&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i>
 	</div>
 
-
+	</div>
 </div>
+</section>
