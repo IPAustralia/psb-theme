@@ -1921,7 +1921,7 @@ article.node-attorney {
   margin-right: 1em; }
 
 #block-block-61 .col-fixed {
-  width: 300px; }
+  width: 400px; }
 
 #block-block-61 ul {
   list-style-type: none; }
@@ -1947,3 +1947,257 @@ article.node-attorney {
 #block-block-61 hr {
   width: 100%;
   color: #333; }
+
+/************* GREY 2 box ************/
+#block-block-71 .container {
+  background-color: #d2d7d3; }
+
+#block-block-71 h2 {
+  font: normal 32px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-71 #text {
+  margin-left: 10%;
+  color: #143d55; }
+
+#block-block-71 h7 {
+  font: normal 16px "merriweather-regular", serif; }
+
+#block-block-71 h4 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-71 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-71 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 1em; }
+
+#block-block-71 .col-fixed {
+  width: 400px; }
+
+#block-block-71 ul {
+  list-style-type: none; }
+
+#block-block-71 #resources-forms-individual {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-71 #resources-forms-incorporated {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-71 hr {
+  width: 100%;
+  color: #333; }
+
+#block-block-71 #mre {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  background-color: #27749c;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px; }
+
+#block-block-71 #mre:hover {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(39, 116, 156, 0.7);
+  margin-bottom: 10px;
+  padding: 10px; }
+
+/************* GREY 2 box ************/
+#block-block-76 .container {
+  background-color: #d2d7d3; }
+
+#block-block-76 h2 {
+  font: normal 32px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-76 #text {
+  margin-left: 10%;
+  color: #143d55; }
+
+#block-block-76 h7 {
+  font: normal 16px "merriweather-regular", serif; }
+
+#block-block-76 h4 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-76 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-76 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 1em; }
+
+#block-block-76 .col-fixed {
+  width: 300px; }
+
+#block-block-76 ul {
+  list-style-type: none; }
+
+#block-block-76 #resources-legislation-patent {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-76 #resources-legislation-tm {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-76 #resources-legislation-code {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-76 hr {
+  width: 100%;
+  color: #333; }
+
+/************* GREY 1 box ************/
+#block-block-81 .container {
+  background-color: #d2d7d3; }
+
+#block-block-81 h2 {
+  font: normal 32px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-81 #text {
+  margin-left: 10%;
+  color: #143d55; }
+
+#block-block-81 h7 {
+  font: normal 16px "merriweather-regular", serif; }
+
+#block-block-81 h4 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #143d55; }
+
+#block-block-81 .row-centered {
+  text-align: center;
+  padding-top: 3em;
+  margin-top: 1em; }
+
+#block-block-81 .col-centered {
+  display: inline-block;
+  float: none;
+  text-align: left;
+  margin-right: 1em; }
+
+#block-block-81 ul {
+  list-style-type: none; }
+
+#block-block-81 #resources-FAQs-incorp {
+  background-color: #fff;
+  margin-bottom: 10%;
+  text-align: left;
+  padding-bottom: 20px; }
+
+#block-block-81 hr {
+  width: 100%;
+  color: #333; }
+
+#block-block-81 #mre {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  background-color: #27749c;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding: 10px; }
+
+#block-block-81 #mre:hover {
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase;
+  background-color: rgba(39, 116, 156, 0.7);
+  margin-bottom: 10px;
+  padding: 10px; }
+
+#block-block-86 {
+  background-image: url("../images/bg/become-registered.jpg"); }
+
+#block-block-86 h6 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #fff;
+  padding-top: 10%; }
+
+#block-block-86 h1 {
+  font: normal 60px "merriweather-regular", serif;
+  color: #fff; }
+
+#block-block-91 {
+  background-image: url("../images/bg/community.jpg"); }
+
+#block-block-91 h6 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #fff;
+  padding-top: 10%; }
+
+#block-block-91 h1 {
+  font: normal 60px "merriweather-regular", serif;
+  color: #fff; }
+
+#block-block-96 {
+  background-image: url("../images/bg/registered.jpg"); }
+
+#block-block-96 h6 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #fff;
+  padding-top: 10%; }
+
+#block-block-96 h1 {
+  font: normal 60px "merriweather-regular", serif;
+  color: #fff; }
+
+#block-block-101 {
+  background-image: url("../images/bg/resources.jpg"); }
+
+#block-block-101 ul {
+  float: right;
+  list-style-type: none;
+  padding-top: 10%;
+  padding-bottom: 10%; }
+
+#block-block-101 li {
+  background-color: rgba(39, 116, 156, 0.7);
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid white; }
+
+#block-block-101 h6 {
+  font: normal 18px "merriweather-regular", serif;
+  color: #fff;
+  padding-top: 10%; }
+
+#block-block-101 li a {
+  background-color: rgba(39, 116, 156, 0.7);
+  color: #fff;
+  font-size: 18px;
+  font: "opensans-semibold", sans-serif;
+  text-transform: uppercase; }
