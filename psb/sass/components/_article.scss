@@ -5,6 +5,17 @@ body {
         p {
             font: $body-text;
         }
+
+        //anchors on headings:
+        h2, h3 {
+            &:before {
+                display: block;
+                content: " ";
+                margin-top: -285px;
+                height: 285px;
+                visibility: hidden;
+            }
+        }
     }
 }
 article {
@@ -56,3 +67,4 @@ h1 {
 section.feature-bg {
     background :transparent url('../images/bg/top-feature.png') no-repeat center top;
 }
+
