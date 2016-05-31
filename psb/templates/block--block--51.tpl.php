@@ -28,9 +28,14 @@
 		<hr />
 		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
-	<div id="registered-complaints-appearing" class="col-md-3 col-centered col-fixed">
-		<h4>Appearing before the tribunal</h4>
-		<p>Parties before the tribunal may appear in person, or be represented by legal practitioners. The tribunal also has the power to allow a person other than a legal practitioner to represent a person.</p>
+	<div id="registered-complaints-should" class="col-md-3 col-centered col-fixed">
+		<h4>What you should know about the regulations</h4>
+		<p>It is important that attorneys understand that the regulations do not give complainants a forum to obtain damages for losses resulting from an attorney's behaviour where:</p>
+		<ul>
+			<li>claims seek restitution for overcharging or failure to perform services</li>
+    		<li>compensation is for claims for damage or for loss of profits</li>
+    		<li>actions seek the return of documents</li>
+		</ul>
 		<hr />
 		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
@@ -63,14 +68,9 @@
 		<hr />
 		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
-	<div id="registered-complaints-should" class="col-md-3 col-centered col-fixed">
-		<h4>What you should know about the regulations</h4>
-		<p>It is important that attorneys understand that the regulations do not give complainants a forum to obtain damages for losses resulting from an attorney's behaviour where:</p>
-		<ul>
-			<li>claims seek restitution for overcharging or failure to perform services</li>
-    		<li>compensation is for claims for damage or for loss of profits</li>
-    		<li>actions seek the return of documents</li>
-		</ul>
+	<div id="registered-complaints-appearing" class="col-md-3 col-centered col-fixed">
+		<h4>Appearing before the tribunal</h4>
+		<p>Parties before the tribunal may appear in person, or be represented by legal practitioners. The tribunal also has the power to allow a person other than a legal practitioner to represent a person.</p>
 		<hr />
 		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>

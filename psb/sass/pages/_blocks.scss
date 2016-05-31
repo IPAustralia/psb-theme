@@ -24,7 +24,7 @@
 }
 
 #block-block-1 li a {
-	background-color:rgba(39,116,156,0.7);
+	//background-color:rgba(39,116,156,0.7); opactiy stacks with the li underneath causing weirdness - duh
 	color: #fff;
 	font-size: 18px;
 	font: $font-body-semibold;
@@ -138,8 +138,12 @@
 }
 
 //resources
+#block-block-16 {
+}
+
 #block-block-16 .container {
 	background-color:$dark-blue;
+	@include botbg();
 }
 
 #block-block-16 h2 {
@@ -180,7 +184,7 @@
 
 #block-block-16 ul {
 	text-align: left;
-	list-style-type: none;
+	//list-style-type: none;
 	padding-bottom:1em;
 }
 
@@ -216,17 +220,26 @@
 #block-block-21 .container {
 	padding: 0 11%;
 }
+#block-block-21 {
+	@include topbg();
+}
 
 //benefits of registration
 /************* WHITE 4 box ************/
 
+#block-block-26 {
+	@include topbg();
+}
+
 #block-block-26 .container {
 }
+
 #block-block-26 h2 {
 	font: $title-h3;
 	color: $dark-blue;
 	margin-left:10%;
 }
+
 #block-block-26 h4 {
 	font: $title-h6;
 	color:$dark-blue;
@@ -401,6 +414,9 @@
 //managing your registration
 /*********** WHITE 4 BOX ************/
 
+#block-block-41 {
+	@include topbg();
+}
 #block-block-41 .container {
 }
 #block-block-41 h2 {
@@ -612,6 +628,9 @@
 
 // for public - relationship
 /*********** WHITE 3 BOX ************/
+#block-block-56 {
+	@include topbg();
+}
 
 #block-block-56 .container {
 }
@@ -731,7 +750,7 @@
 
 //resources - forms 
 /************* GREY 2 box ************/
-#block-block-71 .container {
+#block-block-71 {
 	background-color:$grey;
 }
 #block-block-71 h2 {
@@ -765,19 +784,19 @@
 }
 
 #block-block-71 ul {
-	list-style-type:none;
+	//list-style-type:none;
 }
 
 #block-block-71 #resources-forms-individual {
 	background-color:$white;
-	margin-bottom:10%;
+	margin-bottom:5%;
 	text-align: left;
 	padding-bottom:20px;
 }
 
 #block-block-71 #resources-forms-incorporated {
 	background-color:$white;
-	margin-bottom:10%;
+	margin-bottom:5%;
 	text-align: left;
 	padding-bottom:20px;
 }
@@ -808,8 +827,8 @@
 }
 
 //resources - legislation 
-/************* GREY 2 box ************/
-#block-block-76 .container {
+/************* GREY 3 box ************/
+#block-block-76 {
 	background-color:$grey;
 }
 #block-block-76 h2 {
@@ -843,7 +862,7 @@
 }
 
 #block-block-76 ul {
-	list-style-type:none;
+	//list-style-type:none;
 }
 
 #block-block-76 #resources-legislation-patent {
@@ -873,7 +892,7 @@
 }
 //resources - faq 
 /************* GREY 1 box ************/
-#block-block-81 .container {
+#block-block-81 {
 	background-color:$grey;
 }
 #block-block-81 h2 {
@@ -904,12 +923,16 @@
 }
 
 #block-block-81 ul {
-	list-style-type:none;
+	//list-style-type:none;
+}
+
+#block-block-81 #break {
+	height:50px;
 }
 
 #block-block-81 #resources-FAQs-incorp {
 	background-color:$white;
-	margin-bottom:10%;
+	margin-bottom:2%;
 	text-align: left;
 	padding-bottom:20px;
 }
@@ -942,6 +965,7 @@
 //become header
 #block-block-86 {
 	background-image:$bg-become;
+	background-position: center bottom;
 }
 
 #block-block-86 h6 {
@@ -953,43 +977,47 @@
 #block-block-86 h1 {
 	font: $title-h1;
 	color: #fff;
+	padding-top:10%;
 }
 
 //for att header
 #block-block-91 {
 	background-image:$bg-registered;
+	background-position: center bottom;
 }
 
 #block-block-91 h6 {
 	font: $title-h6;
 	color: #fff;
-	padding-top:10%;
 }
 
 #block-block-91 h1 {
 	font: $title-h1;
 	color: #fff;
+	padding-top:10%;
 }
 
 //for public header
 #block-block-96 {
 	background-image:$bg-community;
+	background-position: center bottom;
 }
 
 #block-block-96 h6 {
 	font: $title-h6;
 	color: #fff;
-	padding-top:10%;
 }
 
 #block-block-96 h1 {
 	font: $title-h1;
 	color: #fff;
+	padding-top:10%;
 }
 
 //resources header 
 #block-block-101 {
 	background-image:$bg-resources;
+	background-position: center bottom;
 }
 
 #block-block-101 ul {
@@ -1008,6 +1036,11 @@
 
 #block-block-101 h6 {
 	font: $title-h6;
+	color: #fff;
+}
+
+#block-block-96 h1 {
+	font: $title-h1;
 	color: #fff;
 	padding-top:10%;
 }

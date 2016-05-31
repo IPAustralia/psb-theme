@@ -1,7 +1,6 @@
 <section id="block-block-71">
-<div class="container">
 <div id="text">
-	<h2><i class="fa fa-file-text" aria-hidden="true"></i>Forms</h2>
+	<h2><i class="fa fa-file-text" aria-hidden="true"></i>&nbsp;&nbsp;Forms</h2>
 </div>
 	<div id="resources-forms" class="row row-centered">
 	<div id="resources-forms-individual" class="col-md-5 col-centered col-fixed">
@@ -20,6 +19,6 @@
 			<li><a href="/sites/psb.dd/files/forms/Application%20for%20Restoration%20of%20an%20Incorporated%20Patent%20and%20or%20Incorporated%20Trade%20Marks%20Attorney%27s%20Name%20to%20the%20Register%28s%29.pdf">Application for Restoration of an Incorporated Patent and or Incorporated Trade Marks Attorney's Name to the Register(s)</a></li>
 		</ul>	
 	</div>
+	<br />
 	<a href="resources/forms" id="mre">View all forms&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
-</div>
 </section>

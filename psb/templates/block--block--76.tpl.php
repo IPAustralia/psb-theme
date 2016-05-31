@@ -1,13 +1,12 @@
 <section id="block-block-76">
-<div class="container">
 <div id="text">
-	<h2><i class="fa fa-gavel" aria-hidden="true"></i>Legislation</h2>
+	<h2><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;&nbsp;Legislation</h2>
 </div>
 	<div id="resources-legislation" class="row row-centered">
 	<div id="resources-legislation-patent" class="col-md-3 col-centered col-fixed">
 		<h4>Patent attorneys</h4>
 		<ul>
-			<li><a href="https://www.legislation.gov.au/Series/F1996B02697">Patents Regulartions 1991</a></li>
+			<li><a href="https://www.legislation.gov.au/Series/F1996B02697">Patents Regulations 1991</a></li>
 			<li><a href="https://www.legislation.gov.au/Series/C2004A04014">Patents Act 1990</a></li>
 		</ul>
 	</div>
@@ -26,5 +25,5 @@
 			<li><a href="https://www.legislation.gov.au/Details/F2013L01822">Code of Conduct</a></li>
 		</ul>	
 	</div>
-</div>
+	</div>
 </section>
