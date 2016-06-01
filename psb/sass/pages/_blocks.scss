@@ -338,6 +338,7 @@
 #block-block-31 h2 {
 	font: $title-h3;
 	color: $dark-blue;
+	margin-left: 8%;
 }
 #block-block-31 #text {
 	margin-left:10%;
@@ -365,7 +366,7 @@
 }
 
 #block-block-31 ul {
-	list-style-type:none;
+	//list-style-type:none;
 }
 
 #block-block-31 #become-registration-practice {
@@ -794,10 +795,16 @@
 /************* GREY 2 box ************/
 #block-block-71 {
 	background-color:$grey;
+	padding-top:1em;
+	margin-top:-8em;
+	padding-bottom:10em;
+	margin-bottom:-10em;
 }
+
 #block-block-71 h2 {
 	font: $title-h3;
 	color: $dark-blue;
+	margin-left:8%;
 }
 #block-block-71 #text {
 	margin-left:10%;
@@ -878,6 +885,7 @@
 #block-block-76 h2 {
 	font: $title-h3;
 	color: $dark-blue;
+	margin-left:8%;
 }
 #block-block-76 #text {
 	margin-left:10%;
@@ -944,6 +952,7 @@
 #block-block-81 h2 {
 	font: $title-h3;
 	color: $dark-blue;
+	margin-left:8%;
 }
 #block-block-81 #text {
 	margin-left:10%;
@@ -1090,6 +1099,7 @@
 #block-block-101 {
 	background-image:$bg-resources;
 	background-position: center bottom;
+	margin-bottom:8em;
 }
 
 #block-block-101 ul {

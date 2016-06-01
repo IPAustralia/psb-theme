@@ -12,6 +12,7 @@
 			<li><a href="/node/201#how-much">How much professional indemnity insurance do we need to incorporate?</a></li>
 		</ul>
 	</div>
-	<br /><a href="node/201" id="mre">View all FAQs&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+	<br /></div>	<div class="container" style="margin-left:23.6%">
+<a href="node/201" id="mre">View all FAQs&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div><div id="break" />
 </section>

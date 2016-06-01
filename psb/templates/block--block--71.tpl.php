@@ -1,6 +1,8 @@
 <section id="block-block-71">
-<div id="text">
-	<h2><i class="fa fa-file-text" aria-hidden="true"></i>&nbsp;&nbsp;Forms</h2>
+<div class="container">
+	<div id="text">
+		<h2><i class="fa fa-file-text" aria-hidden="true"></i>&nbsp;&nbsp;Forms</h2>
+	</div>
 </div>
 	<div id="resources-forms" class="row row-centered">
 	<div id="resources-forms-individual" class="col-md-5 col-centered col-fixed">
@@ -20,5 +22,8 @@
 		</ul>	
 	</div>
 	<br />
-	<a href="resources/forms" id="mre">View all forms&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+	</div>
+	<div class="container" style="margin-left:23.6%">
+		<a href="resources/forms" id="mre">View all forms&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+	</div>
 </section>

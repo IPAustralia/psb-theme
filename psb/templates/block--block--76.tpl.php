@@ -1,6 +1,8 @@
 <section id="block-block-76">
-<div id="text">
-	<h2><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;&nbsp;Legislation</h2>
+<div class="container">
+	<div id="text">
+		<h2><i class="fa fa-gavel" aria-hidden="true"></i>&nbsp;&nbsp;Legislation</h2>
+	</div>
 </div>
 	<div id="resources-legislation" class="row row-centered">
 	<div id="resources-legislation-patent" class="col-md-3 col-centered col-fixed">

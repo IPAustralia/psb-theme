@@ -1608,7 +1608,8 @@ article.node-attorney {
 
 #block-block-31 h2 {
   font: normal 32px "merriweather-regular", serif;
-  color: #143d55; }
+  color: #143d55;
+  margin-left: 8%; }
 
 #block-block-31 #text {
   margin-left: 10%;
@@ -1633,9 +1634,6 @@ article.node-attorney {
 
 #block-block-31 .col-fixed {
   width: 300px; }
-
-#block-block-31 ul {
-  list-style-type: none; }
 
 #block-block-31 #become-registration-practice {
   background-color: #fff;
@@ -2015,11 +2013,16 @@ article.node-attorney {
 
 /************* GREY 2 box ************/
 #block-block-71 {
-  background-color: #d2d7d3; }
+  background-color: #d2d7d3;
+  padding-top: 1em;
+  margin-top: -8em;
+  padding-bottom: 10em;
+  margin-bottom: -10em; }
 
 #block-block-71 h2 {
   font: normal 32px "merriweather-regular", serif;
-  color: #143d55; }
+  color: #143d55;
+  margin-left: 8%; }
 
 #block-block-71 #text {
   margin-left: 10%;
@@ -2089,7 +2092,8 @@ article.node-attorney {
 
 #block-block-76 h2 {
   font: normal 32px "merriweather-regular", serif;
-  color: #143d55; }
+  color: #143d55;
+  margin-left: 8%; }
 
 #block-block-76 #text {
   margin-left: 10%;
@@ -2146,7 +2150,8 @@ article.node-attorney {
 
 #block-block-81 h2 {
   font: normal 32px "merriweather-regular", serif;
-  color: #143d55; }
+  color: #143d55;
+  margin-left: 8%; }
 
 #block-block-81 #text {
   margin-left: 10%;
@@ -2268,7 +2273,8 @@ article.node-attorney {
 
 #block-block-101 {
   background-image: url("../images/bg/resources.jpg");
-  background-position: center bottom; }
+  background-position: center bottom;
+  margin-bottom: 8em; }
 
 #block-block-101 ul {
   float: right;
