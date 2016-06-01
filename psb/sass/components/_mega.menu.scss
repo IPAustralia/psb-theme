@@ -109,7 +109,7 @@ header {
                         &:after {
                             visibility: visible;
                             display: block;
-                            padding-top: 20px;
+                            margin-top: 20px;
                             @include fa-icon('\f015', $dark-blue, 3em);
                         }
 
@@ -295,6 +295,7 @@ header {
                             border-top:1px solid $grey;
                         }
                         a {
+                            line-height: 30px;
                             text-transform: none;
                             font-family:$font-title-bold;
                             font-size:16px;
