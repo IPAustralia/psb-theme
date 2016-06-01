@@ -739,7 +739,7 @@ header nav .nav-tabs {
       header nav .nav-tabs li.icon-home a:after {
         visibility: visible;
         display: block;
-        padding-top: 20px;
+        margin-top: 20px;
         content: "";
         font-size: 3em;
         color: #143d55;
@@ -906,6 +906,7 @@ header nav .nav-tabs {
             border: 0px;
             border-top: 1px solid #d2d7d3; } }
         header nav .nav-tabs .dropdown-menu .megamenu-level-2 li a {
+          line-height: 30px;
           text-transform: none;
           font-family: "merriweather-bold", serif;
           font-size: 16px;
@@ -1047,7 +1048,7 @@ aside {
     aside .region-sidebar-first.well ul li li:first-child {
       border-top: 0px; }
     aside .region-sidebar-first.well ul li li a {
-      padding: 20px 35px; }
+      padding: 20px 10px 20px 25px; }
   aside .region-sidebar-first .sidenav-hide {
     display: none; }
   @media only screen and (max-width: 640px) {
@@ -1230,6 +1231,12 @@ body article {
   padding-top: 20px; }
   body article p {
     font: normal 16px "opensans-regular", sans-serif; }
+  body article h2:before, body article h3:before {
+    display: block;
+    content: " ";
+    margin-top: -285px;
+    height: 285px;
+    visibility: hidden; }
 
 @media only screen and (max-width: 640px) {
   article {
