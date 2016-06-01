@@ -29,10 +29,10 @@
 		<i class="fa fa-question-circle" aria-hidden="true"></i>
 		<h3>FAQs</h3>
 		<ul>
-			<li><a href="/one">Why become incorporated?</a></li>
-			<li><a href="/two">Where is the form to register as an incorporated patent or trade marks attorney?</a></li>
-			<li><a href="/three">Why do I need to have insurance?</a></li>
-			<li><a href="/four">How much professional indemnity insurance do we need to incorporate?</a></li>
+			<li><a href="/node/201#why">Why become incorporated?</a></li>
+			<li><a href="/node/201#where">Where is the form to register as an incorporated patent or trade marks attorney?</a></li>
+			<li><a href="/node/201#insurance">Why do I need to have insurance?</a></li>
+			<li><a href="/node/201#how-much">How much professional indemnity insurance do we need to incorporate?</a></li>
 		</ul>
 	</div>
 </div>

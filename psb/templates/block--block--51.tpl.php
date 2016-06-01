@@ -14,19 +14,19 @@
 			<li>has obtained registration by fraud</li>
 		</ul>
 		<hr />
-		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+		<a href="node/13851#grounds-for-complaint-toc">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
 	<div id="registered-complaints-discipline" class="col-md-3 col-centered col-fixed">
 		<h4>Complaints and discipline</h4>
 		<p>The PSB's role in the commencing of disciplinary proceedings includes investigating either as a result of information received or of its own motion whether an attorney has engaged in professional misconduct or unsatisfactory professional conduct.</p>
 		<hr />
-		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+		<a href="node/13851#complaints-and-discipline-toc">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
 	<div id="registered-complaints-hearings" class="col-md-3 col-centered col-fixed">
 		<h4>Hearings and decisions</h4>
 		<p>Complaints about patent and trade marks attorneys are heard by the tribunal. The tribunal is also established under the regulations.</p>
 		<hr />
-		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+		<a href="node/13851#hearings-and-decisions-toc">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
 	<div id="registered-complaints-should" class="col-md-3 col-centered col-fixed">
 		<h4>What you should know about the regulations</h4>
@@ -37,7 +37,7 @@
     		<li>actions seek the return of documents</li>
 		</ul>
 		<hr />
-		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+		<a href="node/13851#what-you-should-know-about-the-regulations-toc">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
 </div>
 <div id="registered-complaints-2" class="row row-centered">
@@ -50,13 +50,13 @@
 			<li>guilty of unsatisfactory professional conduct</li>
 		</ul>		
 		<hr />
-		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+		<a href="node/13851#tribunal-findings-toc">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
 	<div id="registered-complaints-appointing" class="col-md-3 col-centered col-fixed">
 		<h4>Appointing a registered patent attorney to carry on a practice</h4>
 		<p>The tribunal may appoint a registered patent attorney to carry on the practice of a former patent attorney whose registration has been cancelled or suspended.</p>
 		<hr />
-		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+		<a href="node/13851#appointing-a-registered-patent-attorney-to-carry-on-a-practice-toc">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
 	<div id="registered-complaints-appealing" class="col-md-3 col-centered col-fixed">
 		<h4>Appealing a decision</h4>
@@ -66,13 +66,13 @@
 			<li>about the level of penalty imposed by the tribunal</li>
 		</ul>
 		<hr />
-		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+		<a href="node/13851#appealing-a-decision-toc">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
 	<div id="registered-complaints-appearing" class="col-md-3 col-centered col-fixed">
 		<h4>Appearing before the tribunal</h4>
 		<p>Parties before the tribunal may appear in person, or be represented by legal practitioners. The tribunal also has the power to allow a person other than a legal practitioner to represent a person.</p>
 		<hr />
-		<a href="node/13851">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
+		<a href="node/13851#appearing-before-the-tribunal-toc">Find out more&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a>
 	</div>
 </div>
 </section>

@@ -30,3 +30,5 @@
 
   </div>
 </div>
+
+<?php include DRUPAL_ROOT . "/" . drupal_get_path('theme', 'psb') . "/templates/includes/footer.inc"; ?>

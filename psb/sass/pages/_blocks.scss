@@ -1,3 +1,33 @@
+.row {
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: center;//space-between;
+	margin-bottom:10%;
+   }
+
+.row > [class*='col-'] {
+	flex: 0 1 auto;
+	//align-self: auto;
+	min-width: 0;
+	min-height: auto;
+	margin-left:10px;
+	margin-right:10px;
+}
+.col-fixed {
+	margin-bottom:20px !important;
+}
+
+/*.flex-row.row > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
+   }
+.flex-row.row:after, 
+.flex-row.row:before {
+	display: flex;
+  }*/
+
+
 //homepage header 
 #block-block-1 {
 	background-image:$bg-home;
@@ -58,6 +88,11 @@
 	padding-top:2em;
 	padding-bottom:10px;
 	background-color:$grey;
+	margin-top:-10px;
+}
+#block-block-6 #title {
+	color:$blue;
+	font:$body-bold;
 }
 
 #block-block-6 input[type=search] {
@@ -113,7 +148,9 @@
 	margin-bottom:-1px;
 	border:1px solid $grey;
 }
-
+#block-block-6 #attorney {
+	margin-top:5%;
+}
 #block-block-6 .nav-tabs > li, .nav-pills > li {
     float:none;
     display:inline-block;
@@ -129,7 +166,7 @@
 #block-block-6 p {
 	text-align:center;
 	background-color:$grey;
-	padding-bottom:20px;
+	padding-bottom:20px !important;
 	font:$body-bold;
 	padding-top:2em;
 }
@@ -200,7 +237,8 @@
 	margin-right:4px;
 }
 #block-block-16 .col-fixed {
-	width:300px;
+	width:350px;
+	margin-bottom:20px !important;
 }
 
 //trans-tasman-whatever
@@ -256,7 +294,7 @@
 	margin-right:1em;
 }
 #block-block-26 .col-fixed {
-	width:200px;
+	width:250px;
 }
 #block-block-26 #become-benefit-practice {
 	background-color:$grey;
@@ -440,7 +478,7 @@
 	margin-right:1em;
 }
 #block-block-41 .col-fixed {
-	width:200px;
+	width:250px;
 }
 #block-block-41 #registered-managing-renewals {
 	background-color:$grey;
@@ -473,6 +511,7 @@
 #block-block-41 hr {
 	width:100%;
 	color:$charcoal;
+	align-self: flex-end;
 }
 //CPE
 /************* GREY 3 box ************/
@@ -565,7 +604,10 @@
 	margin-right:1em;
 }
 #block-block-51 .col-fixed {
-	width:200px;
+	width:250px;
+}
+#block-block-51 #registered-complaints-2 {
+	margin-top: -10em;
 }
 #block-block-51 #registered-complaints-grounds {
 	background-color:$grey;
@@ -772,6 +814,8 @@
 	text-align:center;
 	padding-top:3em;
 	margin-top:1em;
+	padding-bottom: 10em;
+	margin-bottom: -10em;
 }
 #block-block-71 .col-centered {
 	display:inline-block;
@@ -780,7 +824,7 @@
 	margin-right:1em;
 }
 #block-block-71 .col-fixed {
-	width:400px;
+	width:450px;
 }
 
 #block-block-71 ul {
@@ -850,6 +894,8 @@
 	text-align:center;
 	padding-top:3em;
 	margin-top:1em;
+	padding-bottom: 10em;
+	margin-bottom: -10em;
 }
 #block-block-76 .col-centered {
 	display:inline-block;
@@ -914,6 +960,8 @@
 	text-align:center;
 	padding-top:3em;
 	margin-top:1em;
+	padding-bottom: 10em;
+	margin-bottom: -10em;
 }
 #block-block-81 .col-centered {
 	display:inline-block;
@@ -996,7 +1044,13 @@
 	color: #fff;
 	padding-top:10%;
 }
-
+#block-block-91 a {
+	background-color:rgba(39,116,156,0.7);
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+}
 //for public header
 #block-block-96 {
 	background-image:$bg-community;
@@ -1006,6 +1060,7 @@
 #block-block-96 h6 {
 	font: $title-h6;
 	color: #fff;
+	padding-bottom:10%;
 }
 
 #block-block-96 h1 {
@@ -1013,6 +1068,23 @@
 	color: #fff;
 	padding-top:10%;
 }
+
+#block-block-96 #mre {
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+	background-color:rgba(39,116,156,1);
+	margin-bottom:10px;
+	margin-top:-10%;
+	float:left;
+	padding:10px;
+}
+
+#block-block-96 #mre:hover {
+	background-color:rgba(39,116,156,0.7);
+}
+
 
 //resources header 
 #block-block-101 {
@@ -1039,14 +1111,14 @@
 	color: #fff;
 }
 
-#block-block-96 h1 {
+#block-block-101 h1 {
 	font: $title-h1;
 	color: #fff;
 	padding-top:10%;
 }
 
 #block-block-101 li a {
-	background-color:rgba(39,116,156,0.7);
+	//background-color:rgba(39,116,156,0.7);
 	color: #fff;
 	font-size: 18px;
 	font: $font-body-semibold;
