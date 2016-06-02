@@ -1318,8 +1318,14 @@ article.node-attorney {
 .page-search .search-snippet-info h4 {
   font-size: 15px; }
 
-.node.node-page.clearfix {
+/*.node.node-page.clearfix {
+	display:none;
+}*/
+footer {
   display: none; }
+
+footer.footer {
+  display: block !important; }
 
 .row {
   display: flex;
@@ -2091,7 +2097,8 @@ article.node-attorney {
 
 /************* GREY 3 box ************/
 #block-block-76 {
-  background-color: #d2d7d3; }
+  background-color: #d2d7d3;
+  padding-top: 5em; }
 
 #block-block-76 h2 {
   font: normal 32px "merriweather-regular", serif;
@@ -2149,7 +2156,8 @@ article.node-attorney {
 
 /************* GREY 1 box ************/
 #block-block-81 {
-  background-color: #d2d7d3; }
+  background-color: #d2d7d3;
+  padding-top: 5em; }
 
 #block-block-81 h2 {
   font: normal 32px "merriweather-regular", serif;

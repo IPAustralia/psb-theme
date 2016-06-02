@@ -1,5 +1,11 @@
-.node.node-page.clearfix {
+/*.node.node-page.clearfix {
 	display:none;
+}*/
+footer {
+	display:none;
+}
+footer.footer{
+	display:block !important;
 }
 
 .row {
@@ -885,6 +891,7 @@
 /************* GREY 3 box ************/
 #block-block-76 {
 	background-color:$grey;
+	padding-top:5em;
 }
 #block-block-76 h2 {
 	font: $title-h3;
@@ -952,6 +959,7 @@
 /************* GREY 1 box ************/
 #block-block-81 {
 	background-color:$grey;
+	padding-top:5em;
 }
 #block-block-81 h2 {
 	font: $title-h3;

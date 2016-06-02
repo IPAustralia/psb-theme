@@ -1,7 +1,8 @@
 <section id="block-block-81">
+<div class="container">
 <div id="text">
 	<h2><i class="fa fa-question-circle" aria-hidden="true"></i>&nbsp;&nbsp;FAQs</h2>
-</div>
+</div></div>
 	<div id="resources-FAQs" class="row row-centered">
 	<div id="resources-FAQs-incorp" class="col-md-5 col-centered">
 		<h4>Incorporation registration</h4>
