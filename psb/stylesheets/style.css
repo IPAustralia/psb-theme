@@ -739,7 +739,7 @@ header nav .nav-tabs {
       header nav .nav-tabs li.icon-home a:after {
         visibility: visible;
         display: block;
-        padding-top: 20px;
+        margin-top: 20px;
         content: "";
         font-size: 3em;
         color: #143d55;
@@ -906,6 +906,7 @@ header nav .nav-tabs {
             border: 0px;
             border-top: 1px solid #d2d7d3; } }
         header nav .nav-tabs .dropdown-menu .megamenu-level-2 li a {
+          line-height: 30px;
           text-transform: none;
           font-family: "merriweather-bold", serif;
           font-size: 16px;
@@ -1047,7 +1048,7 @@ aside {
     aside .region-sidebar-first.well ul li li:first-child {
       border-top: 0px; }
     aside .region-sidebar-first.well ul li li a {
-      padding: 20px 35px; }
+      padding: 20px 10px 20px 25px; }
   aside .region-sidebar-first .sidenav-hide {
     display: none; }
   @media only screen and (max-width: 640px) {
@@ -1230,6 +1231,12 @@ body article {
   padding-top: 20px; }
   body article p {
     font: normal 16px "opensans-regular", sans-serif; }
+  body article h2:before, body article h3:before {
+    display: block;
+    content: " ";
+    margin-top: -285px;
+    height: 285px;
+    visibility: hidden; }
 
 @media only screen and (max-width: 640px) {
   article {
@@ -1310,6 +1317,9 @@ article.node-attorney {
   font-size: 15px; }
 .page-search .search-snippet-info h4 {
   font-size: 15px; }
+
+.clearfix {
+  display: none; }
 
 .row {
   display: flex;
@@ -1601,7 +1611,8 @@ article.node-attorney {
 
 #block-block-31 h2 {
   font: normal 32px "merriweather-regular", serif;
-  color: #143d55; }
+  color: #143d55;
+  margin-left: 8%; }
 
 #block-block-31 #text {
   margin-left: 10%;
@@ -1626,9 +1637,6 @@ article.node-attorney {
 
 #block-block-31 .col-fixed {
   width: 300px; }
-
-#block-block-31 ul {
-  list-style-type: none; }
 
 #block-block-31 #become-registration-practice {
   background-color: #fff;
@@ -2008,11 +2016,16 @@ article.node-attorney {
 
 /************* GREY 2 box ************/
 #block-block-71 {
-  background-color: #d2d7d3; }
+  background-color: #d2d7d3;
+  padding-top: 1em;
+  margin-top: -8em;
+  padding-bottom: 10em;
+  margin-bottom: -10em; }
 
 #block-block-71 h2 {
   font: normal 32px "merriweather-regular", serif;
-  color: #143d55; }
+  color: #143d55;
+  margin-left: 8%; }
 
 #block-block-71 #text {
   margin-left: 10%;
@@ -2082,7 +2095,8 @@ article.node-attorney {
 
 #block-block-76 h2 {
   font: normal 32px "merriweather-regular", serif;
-  color: #143d55; }
+  color: #143d55;
+  margin-left: 8%; }
 
 #block-block-76 #text {
   margin-left: 10%;
@@ -2139,7 +2153,8 @@ article.node-attorney {
 
 #block-block-81 h2 {
   font: normal 32px "merriweather-regular", serif;
-  color: #143d55; }
+  color: #143d55;
+  margin-left: 8%; }
 
 #block-block-81 #text {
   margin-left: 10%;
@@ -2261,7 +2276,8 @@ article.node-attorney {
 
 #block-block-101 {
   background-image: url("../images/bg/resources.jpg");
-  background-position: center bottom; }
+  background-position: center bottom;
+  margin-bottom: 8em; }
 
 #block-block-101 ul {
   float: right;

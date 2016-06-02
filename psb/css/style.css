@@ -1318,6 +1318,9 @@ article.node-attorney {
 .page-search .search-snippet-info h4 {
   font-size: 15px; }
 
+.clearfix {
+  display: none; }
+
 .row {
   display: flex;
   flex-direction: row;
