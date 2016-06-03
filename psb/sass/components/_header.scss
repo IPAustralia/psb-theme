@@ -28,6 +28,7 @@ header{
         @media only screen and (max-width: $break-point-medium - 1) {
             padding-bottom:10px;
             border-bottom:2px solid $charcoal;
+            min-height: 100px;
         }
         .header-right {
             padding-right: 0px;

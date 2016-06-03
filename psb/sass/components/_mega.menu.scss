@@ -94,7 +94,7 @@ header {
 
                     }
                     @media only screen and (max-width: $break-point-medium - 1) {
-                        background:$dark-blue;
+                        //background: $dark-blue;
                     }
                 }
                 &.icon-home {
@@ -103,7 +103,6 @@ header {
                         background-color:$white;
                     }
                     a {
-
                         line-height: 0; /* Collapse the original line */
                         visibility: hidden;
                         &:after {
@@ -112,10 +111,16 @@ header {
                             margin-top: 20px;
                             @include fa-icon('\f015', $dark-blue, 3em);
                         }
-
                         &:hover, &:active, &:focus {
                             border: 0px !important;
                             cursor:pointer;
+                        }
+                        @media only screen and (max-width: $break-point-midsmall - 1) {
+                            visibility: visible;
+                            line-height: 16px;
+                            &:after {
+                                display:none;
+                            }
                         }
                     }
                     @media only screen and (max-width: $break-point-large - 50) {
@@ -266,6 +271,7 @@ header {
                         margin: 0px;
                         border: 0px !important;
                         width: 100%;
+                        display: none;
                     }
                 }
 

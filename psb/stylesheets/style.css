@@ -447,7 +447,8 @@ header .header {
   @media only screen and (max-width: 767px) {
     header .header {
       padding-bottom: 10px;
-      border-bottom: 2px solid #333; } }
+      border-bottom: 2px solid #333;
+      min-height: 100px; } }
   header .header .header-right {
     padding-right: 0px; }
     @media only screen and (max-width: 992px) {
@@ -726,9 +727,6 @@ header nav .nav-tabs {
             /*background-color:$charcoal !important;*/
             color: #fff !important;
             margin-bottom: -5px; } }
-    @media only screen and (max-width: 767px) {
-      header nav .nav-tabs li.open, header nav .nav-tabs li:hover {
-        background: #143d55; } }
     header nav .nav-tabs li.icon-home :hover, header nav .nav-tabs li.icon-home.active {
       /*@include background-image('home.png');*/
       background-color: #fff; }
@@ -747,6 +745,12 @@ header nav .nav-tabs {
       header nav .nav-tabs li.icon-home a:hover, header nav .nav-tabs li.icon-home a:active, header nav .nav-tabs li.icon-home a:focus {
         border: 0px !important;
         cursor: pointer; }
+      @media only screen and (max-width: 639px) {
+        header nav .nav-tabs li.icon-home a {
+          visibility: visible;
+          line-height: 16px; }
+          header nav .nav-tabs li.icon-home a:after {
+            display: none; } }
     @media only screen and (max-width: 942px) {
       header nav .nav-tabs li.icon-home {
         display: none; } }
@@ -882,7 +886,8 @@ header nav .nav-tabs {
         header nav .nav-tabs .dropdown-menu .learn-more {
           margin: 0px;
           border: 0px !important;
-          width: 100%; } }
+          width: 100%;
+          display: none; } }
     header nav .nav-tabs .dropdown-menu .megamenu-level-2 {
       clear: both;
       padding: 30px 0px;
@@ -1289,6 +1294,16 @@ article.node-attorney {
     border-bottom: 1px solid #d2d7d3; }
   article.node-attorney footer {
     display: none; }
+
+.view-forms .view-content .views-row {
+  width: 80%;
+  margin: 10px 0px;
+  padding: 10px 15px;
+  background: #eeefee;
+  border: 1px solid #d2d7d3; }
+
+.front #block-system-main {
+  display: none; }
 
 .page-search .search-info {
   display: none; }
