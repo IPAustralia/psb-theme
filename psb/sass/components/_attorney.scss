@@ -20,3 +20,15 @@ article.node-attorney {
 		display:none;
 	}
 }
+
+.view-forms {
+	.view-content {
+		.views-row {
+			width: 80%;
+			margin: 10px 0px;
+			padding: 10px 15px;
+			background: $light-grey;
+			border: 1px solid $grey;
+		}
+	}
+}

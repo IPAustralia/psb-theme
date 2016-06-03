@@ -1290,6 +1290,13 @@ article.node-attorney {
   article.node-attorney footer {
     display: none; }
 
+.view-forms .view-content .views-row {
+  width: 80%;
+  margin: 10px 0px;
+  padding: 10px 15px;
+  background: #eeefee;
+  border: 1px solid #d2d7d3; }
+
 .page-search .search-info {
   display: none; }
 .page-search .search-snippet-info h1 {
