@@ -1,0 +1,1147 @@
+/*.node.node-page.clearfix {
+	display:none;
+}*/
+footer {
+	display:none;
+}
+footer.footer{
+	display:block !important;
+}
+
+.row {
+	display: flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+	justify-content: center;//space-between;
+	margin-bottom:10%;
+   }
+
+.row > [class*='col-'] {
+	flex: 0 1 auto;
+	//align-self: auto;
+	min-width: 0;
+	min-height: auto;
+	margin-left:10px;
+	margin-right:10px;
+}
+.col-fixed {
+	margin-bottom:20px !important;
+}
+
+/*.flex-row.row > [class*='col-'] {
+	display: flex;
+	flex-direction: column;
+   }
+.flex-row.row:after, 
+.flex-row.row:before {
+	display: flex;
+  }*/
+
+
+//homepage header 
+#block-block-1 {
+	background-image:$bg-home;
+}
+
+#block-block-1 ul {
+	float: right;
+	list-style-type:none;
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+#block-block-1 li {
+	background-color:rgba(39,116,156,0.7);
+	margin-bottom:10px;
+	padding:10px;
+	border: 1px solid white;
+}
+
+#block-block-1 h6 {
+	font: $title-h6;
+	color: #fff;
+	padding-top:10%;
+}
+
+#block-block-1 li a {
+	//background-color:rgba(39,116,156,0.7); opactiy stacks with the li underneath causing weirdness - duh
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+}
+
+#block-block-1 #mre {
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+	background-color:rgba(39,116,156,1);
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:10px;
+}
+
+#block-block-1 #mre:hover {
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+	background-color:rgba(39,116,156,0.7);
+	margin-bottom:10px;
+	padding:10px;
+}
+
+//search
+#block-block-6 form {
+	text-align:center;
+	padding-top:2em;
+	padding-bottom:10px;
+	background-color:$grey;
+	//margin-top:-10px;
+}
+#block-block-6 #title {
+	color:$blue;
+	font:$body-bold;
+}
+
+#block-block-6 input[type=search] {
+    width: 30%;
+    font-size:18px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+#block-block-6 input[type=submit] {
+    width: 10%;
+    background-color: $blue;
+    color: white;
+    padding: 12px 20px;
+    font-size:18px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    font: $font-body-semibold;
+    text-transform: uppercase;
+}
+
+#block-block-6 input[type=submit]:hover {
+	background-color:rgba(39,116,156,0.7);
+}
+
+#block-block-6 ul {
+	//margin-top:5%;
+	margin-bottom:0px;
+	text-align: center;
+}
+#block-block-6 ul .nav {
+	border-bottom: 0 !important;
+}
+#block-block-6 ul .nav-tabs {
+	border-bottom: 0 !important;
+}
+
+#block-block-6 li.active a {
+	background-color:$grey;
+	color:$blue;
+	font:$body-bold;
+	margin-bottom:-1px !important;
+}
+#block-block-6 li a {
+	background-color:#fff;
+	color:$grey;
+	font:$body-bold;
+	margin-bottom:-1px;
+	border:1px solid $grey;
+}
+
+#block-block-6 .nav-tabs > li, .nav-pills > li {
+    float:none;
+    display:inline-block;
+}
+
+#block-block-6 .nav-tabs, .nav-pills {
+    text-align:center;
+}
+
+#block-block-6 ul {
+	text-align: center;
+}
+#block-block-6 p {
+	text-align:center;
+	background-color:$grey;
+	padding-bottom:20px !important;
+	font:$body-bold;
+	padding-top:2em;
+}
+#block-block-6 .container {
+	margin-top:0.5em !important;
+}
+
+//resources
+#block-block-16 {
+}
+
+#block-block-16 .container {
+	background-color:$dark-blue;
+	@include botbg();
+}
+
+#block-block-16 h2 {
+	font: $title-h3;
+	color: #fff;
+	margin-left:11%;
+}
+
+#block-block-16 h3 {
+	font: $title-h4;
+	color: $dark-blue;
+}
+
+#block-block-16 #resources-forms {
+	background-color:#fff;
+	margin-bottom:10%;
+	text-align:center;
+}
+
+#block-block-16 #resources-legislation {
+	background-color:#fff;
+	margin-bottom:10%;
+	text-align:center;
+}
+
+#block-block-16 #resources-faqs {
+	background-color:#fff;
+	margin-bottom:10%;
+	text-align:center;
+}
+
+#block-block-16 .fa {
+	font-size:5em; 
+	text-align:center; 
+	color:#ddd;
+	padding-top:0.5em; 
+}
+
+#block-block-16 ul {
+	text-align: left;
+	//list-style-type: none;
+	padding-bottom:1em;
+}
+
+#block-block-16 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-16 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:4px;
+}
+#block-block-16 .col-fixed {
+	width:350px;
+	margin-bottom:20px !important;
+}
+
+//trans-tasman-whatever
+#block-block-21 #mre {
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+	background-color:rgba(39,116,156,1);
+	//margin-bottom:2em;
+	margin-top:10px;
+	padding:10px;
+}
+#block-block-21 h2 {
+	font: $title-h3;
+}
+#block-block-21 .container {
+	padding: 0 11%;
+}
+#block-block-21 {
+	@include topbg();
+}
+
+//benefits of registration
+/************* WHITE 4 box ************/
+
+#block-block-26 {
+	@include topbg();
+}
+
+#block-block-26 .container {
+}
+
+#block-block-26 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:10%;
+}
+
+#block-block-26 h4 {
+	font: $title-h6;
+	color:$dark-blue;
+}
+#block-block-26 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-26 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-26 .col-fixed {
+	width:250px;
+}
+#block-block-26 #become-benefit-practice {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-26 #become-benefit-title {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-26 #become-benefit-partnership {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-26 #become-benefit-privileges {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-26 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+//registration requirements
+/************* GREY 3 box ************/
+
+#block-block-31 .container {
+	background-color:$grey;
+}
+#block-block-31 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left: 8%;
+}
+#block-block-31 #text {
+	margin-left:10%;
+	color: $dark-blue
+}
+#block-block-31 h7 {
+	font: $title-h7;
+}
+#block-block-31 h4 {
+	font: $title-h6;
+}
+#block-block-31 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-31 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-31 .col-fixed {
+	width:300px;
+}
+
+#block-block-31 ul {
+	//list-style-type:none;
+}
+
+#block-block-31 #become-registration-practice {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-31 #become-registration-registration {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-31 #become-registration-incorporation {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-31 hr {
+	width:100%;
+	color:$charcoal;
+}
+//registration process
+#block-block-36 h2 {
+	font: $title-h3;
+}
+#block-block-36 h7 {
+	font: $title-h6;
+}
+#block-block-36 h4 {
+	font: $title-h6;
+	color: $dark-blue;
+}
+
+#block-block-36 #text {
+	margin-left:10%;
+	color: $dark-blue;
+}
+#block-block-36 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-36 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-36 .col-fixed {
+	width:300px;
+}
+#block-block-36 #become-process-tm {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-36 #become-process-pat {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-36 #become-process-incorporated {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-26 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+//managing your registration
+/*********** WHITE 4 BOX ************/
+
+#block-block-41 {
+	@include topbg();
+}
+#block-block-41 .container {
+}
+#block-block-41 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:10%;
+}
+#block-block-41 h4 {
+	font: $title-h6;
+	color:$dark-blue;
+}
+#block-block-41 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-41 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-41 .col-fixed {
+	width:250px;
+}
+#block-block-41 #registered-managing-renewals {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-41 #registered-managing-restoring {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-41 #registered-managing-voluntary {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-41 #registered-managing-restoration {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-41 hr {
+	width:100%;
+	color:$charcoal;
+	align-self: flex-end;
+}
+//CPE
+/************* GREY 3 box ************/
+#block-block-46 .container {
+	background-color:$grey;
+}
+#block-block-46 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+}
+#block-block-46 #text {
+	margin-left:10%;
+	color: $dark-blue
+}
+#block-block-46 h7 {
+	font: $title-h7;
+}
+#block-block-46 h4 {
+	font: $title-h6;
+	color: $dark-blue;
+}
+#block-block-46 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-46 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-46 .col-fixed {
+	width:300px;
+}
+
+#block-block-46 ul {
+	list-style-type:none;
+}
+
+#block-block-46 #registered-cpe-mandatory {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-46 #registered-cpe-timeframe {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-46 #registered-cpe-providers {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-46 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+//managing complaints
+/*********** WHITE 4 BOX ************/
+
+#block-block-51 .container {
+}
+#block-block-51 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:10%;
+}
+#block-block-51 h4 {
+	font: $title-h6;
+	color:$dark-blue;
+}
+#block-block-51 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-51 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-51 .col-fixed {
+	width:250px;
+}
+#block-block-51 #registered-complaints-2 {
+	margin-top: -10em;
+}
+#block-block-51 #registered-complaints-grounds {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-discipline {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-hearings {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-appearing {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+}
+#block-block-51 #registered-complaints-findings {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-appointing {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-appealing {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-51 #registered-complaints-should {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+}
+#block-block-51 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+// for public - relationship
+/*********** WHITE 3 BOX ************/
+#block-block-56 {
+	@include topbg();
+}
+
+#block-block-56 .container {
+}
+#block-block-56 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:10%;
+}
+#block-block-56 h4 {
+	font: $title-h6;
+	color:$dark-blue;
+}
+#block-block-56 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-56 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-56 .col-fixed {
+	width:300px;
+}
+#block-block-56 #public-relationship-FIXME1 {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-56 #public-relationship-FIXME2 {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-56 #public-relationship-FIXME3 {
+	background-color:$grey;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-56 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+//public - complaints
+/************* GREY 3 box ************/
+#block-block-61 .container {
+	background-color:$grey;
+}
+#block-block-61 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+}
+#block-block-61 #text {
+	margin-left:10%;
+	color: $dark-blue
+}
+#block-block-61 h7 {
+	font: $title-h7;
+}
+#block-block-61 h4 {
+	font: $title-h6;
+	color: $dark-blue;
+}
+#block-block-61 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+}
+#block-block-61 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-61 .col-fixed {
+	width:400px;
+}
+
+#block-block-61 ul {
+	list-style-type:none;
+}
+
+#block-block-61 #public-complaints-FIXME1 {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-61 #public-complaints-FIXME2 {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-61 #public-complaints-FIXME3 {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align:left;
+	padding-bottom:20px;
+
+}
+#block-block-61 hr {
+	width:100%;
+	color:$charcoal;
+}
+
+//resources - forms 
+/************* GREY 2 box ************/
+#block-block-71 {
+	background-color:$grey;
+	padding-top:1em;
+	margin-top:-8em;
+	padding-bottom:10em;
+	margin-bottom:-10em;
+}
+
+#block-block-71 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:8%;
+}
+#block-block-71 #text {
+	margin-left:10%;
+	color: $dark-blue
+}
+#block-block-71 h7 {
+	font: $title-h7;
+}
+#block-block-71 h4 {
+	font: $title-h6;
+	color: $dark-blue;
+}
+#block-block-71 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+	padding-bottom: 10em;
+	margin-bottom: -10em;
+}
+#block-block-71 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-71 .col-fixed {
+	width:450px;
+}
+
+#block-block-71 ul {
+	//list-style-type:none;
+}
+
+#block-block-71 #resources-forms-individual {
+	background-color:$white;
+	margin-bottom:5%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-71 #resources-forms-incorporated {
+	background-color:$white;
+	margin-bottom:5%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-71 hr {
+	width:100%;
+	color:$charcoal;
+}
+#block-block-71 #mre {
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+	background-color:rgba(39,116,156,1);
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:10px;
+}
+
+#block-block-71 #mre:hover {
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+	background-color:rgba(39,116,156,0.7);
+	margin-bottom:10px;
+	padding:10px;
+}
+
+//resources - legislation 
+/************* GREY 3 box ************/
+#block-block-76 {
+	background-color:$grey;
+	padding-top:5em;
+}
+#block-block-76 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:8%;
+}
+#block-block-76 #text {
+	margin-left:10%;
+	color: $dark-blue
+}
+#block-block-76 h7 {
+	font: $title-h7;
+}
+#block-block-76 h4 {
+	font: $title-h6;
+	color: $dark-blue;
+}
+#block-block-76 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+	padding-bottom: 10em;
+	margin-bottom: -10em;
+}
+#block-block-76 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+#block-block-76 .col-fixed {
+	width:300px;
+}
+
+#block-block-76 ul {
+	//list-style-type:none;
+}
+
+#block-block-76 #resources-legislation-patent {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-76 #resources-legislation-tm {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-76 #resources-legislation-code {
+	background-color:$white;
+	margin-bottom:10%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-76 hr {
+	width:100%;
+	color:$charcoal;
+}
+//resources - faq 
+/************* GREY 1 box ************/
+#block-block-81 {
+	background-color:$grey;
+	padding-top:5em;
+}
+#block-block-81 h2 {
+	font: $title-h3;
+	color: $dark-blue;
+	margin-left:8%;
+}
+#block-block-81 #text {
+	margin-left:10%;
+	color: $dark-blue
+}
+#block-block-81 h7 {
+	font: $title-h7;
+}
+#block-block-81 h4 {
+	font: $title-h6;
+	color: $dark-blue;
+}
+#block-block-81 .row-centered {
+	text-align:center;
+	padding-top:3em;
+	margin-top:1em;
+	padding-bottom: 10em;
+	margin-bottom: -10em;
+}
+#block-block-81 .col-centered {
+	display:inline-block;
+	float:none;
+	text-align:left;
+	margin-right:1em;
+}
+
+#block-block-81 ul {
+	//list-style-type:none;
+}
+
+#block-block-81 #break {
+	height:50px;
+}
+
+#block-block-81 #resources-FAQs-incorp {
+	background-color:$white;
+	margin-bottom:2%;
+	text-align: left;
+	padding-bottom:20px;
+}
+
+#block-block-81 hr {
+	width:100%;
+	color:$charcoal;
+}
+#block-block-81 #mre {
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+	background-color:rgba(39,116,156,1);
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:10px;
+}
+
+#block-block-81 #mre:hover {
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+	background-color:rgba(39,116,156,0.7);
+	margin-bottom:10px;
+	padding:10px;
+}
+
+//become header
+#block-block-86 {
+	background-image:$bg-become;
+	background-position: center bottom;
+}
+
+#block-block-86 h6 {
+	font: $title-h6;
+	color: #fff;
+	padding-top:10%;
+}
+
+#block-block-86 h1 {
+	font: $title-h1;
+	color: #fff;
+	padding-top:10%;
+}
+
+//for att header
+#block-block-91 {
+	background-image:$bg-registered;
+	background-position: center bottom;
+}
+
+#block-block-91 h6 {
+	font: $title-h6;
+	color: #fff;
+}
+
+#block-block-91 h1 {
+	font: $title-h1;
+	color: #fff;
+	padding-top:10%;
+}
+#block-block-91 a {
+	background-color:rgba(39,116,156,0.7);
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+}
+//for public header
+#block-block-96 {
+	background-image:$bg-community;
+	background-position: center bottom;
+}
+
+#block-block-96 h6 {
+	font: $title-h6;
+	color: #fff;
+	padding-bottom:10%;
+}
+
+#block-block-96 h1 {
+	font: $title-h1;
+	color: #fff;
+	padding-top:10%;
+}
+
+#block-block-96 #mre {
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+	background-color:rgba(39,116,156,1);
+	margin-bottom:10px;
+	margin-top:-10%;
+	float:left;
+	padding:10px;
+}
+
+#block-block-96 #mre:hover {
+	background-color:rgba(39,116,156,0.7);
+}
+
+
+//resources header 
+#block-block-101 {
+	background-image:$bg-resources;
+	background-position: center bottom;
+	margin-bottom:8em;
+}
+
+#block-block-101 ul {
+	float: right;
+	list-style-type:none;
+	padding-top:10%;
+	padding-bottom:10%;
+}
+
+#block-block-101 li {
+	background-color:rgba(39,116,156,0.7);
+	margin-bottom:10px;
+	padding:10px;
+	border: 1px solid white;
+}
+
+#block-block-101 h6 {
+	font: $title-h6;
+	color: #fff;
+}
+
+#block-block-101 h1 {
+	font: $title-h1;
+	color: #fff;
+	padding-top:10%;
+}
+
+#block-block-101 li a {
+	//background-color:rgba(39,116,156,0.7);
+	color: #fff;
+	font-size: 18px;
+	font: $font-body-semibold;
+	text-transform:uppercase;
+}
+

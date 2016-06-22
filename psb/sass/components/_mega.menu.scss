@@ -20,19 +20,23 @@ header {
                     width:48px;
                     height:34px;
                     &:hover, &:active, &:focus {
-                        background-color:#fff !important;
+                        background-color: $dark-blue !important;
                     }
-                    @include background-image('close-cross.png');
-                    &.collapsed {
-                        @include background-image('burger.png');
+                    &:before { 
+                        @include fa-icon('\f00d', $white, 3em );
                     }
 
+                }
+                button.collapsed {
+                    &:before {  
+                        @include fa-icon('\f0c9', $white, 3em );
+                    }
                 }
 
             }
         }
         &.navbar-default {
-            background: $dark-blue;
+            background: $white;
         }
         &.is_stuck{
             bottom: auto !important;
@@ -90,41 +94,52 @@ header {
 
                     }
                     @media only screen and (max-width: $break-point-medium - 1) {
-                        background:$dark-blue;
+                        //background: $dark-blue;
                     }
                 }
                 &.icon-home {
                     :hover, &.active {
                         /*@include background-image('home.png');*/
-                        background-color:$dark-blue;
+                        background-color:$white;
                     }
                     a {
-                        display: none;
-                        text-indent: -9999px;
-                        @include background-image('home.png');
-                        width: 70px;
-                        display: block;
-
+                        line-height: 0; /* Collapse the original line */
+                        visibility: hidden;
+                        &:after {
+                            visibility: visible;
+                            display: block;
+                            margin-top: 20px;
+                            @include fa-icon('\f015', $dark-blue, 3em);
+                        }
                         &:hover, &:active, &:focus {
                             border: 0px !important;
-                            @include background-image('home.png');
                             cursor:pointer;
+                        }
+                        @media only screen and (max-width: $break-point-midsmall - 1) {
+                            visibility: visible;
+                            line-height: 16px;
+                            &:after {
+                                display:none;
+                            }
                         }
                     }
                     @media only screen and (max-width: $break-point-large - 50) {
-                       display: none;
+                        display: none;
                     }
                     @media only screen and (max-width: $break-point-medium - 1) {
-                       display: block;
+                        display: block;
+                        line-height: 16px; /* Collapse the original line */
+                        visibility: visible;
                     }
                 }
 
                 a {
+                    text-transform: uppercase;
                     padding: 19px 21px 15px 21px;
                     display: block;
                     cursor: pointer;
-                    color: white;
-                    font: normal 16px 'montserratregular', sans-serif;
+                    color: $dark-blue;
+                    font: $nav-bold;
                     display: block;
                     line-height:46px;
                     border: 0px;
@@ -176,7 +191,7 @@ header {
                 overflow:hidden;
 
                 > li {
-                    float: none;
+                    //float: none;
                     display:inline-block;
                     a {
                         margin: 0 -2px;
@@ -219,24 +234,8 @@ header {
                 }
 
                 i {
-                    float: left;
-                    height: 80px;
-                    width: 90px;
-                    &.icon-patents {
-                        @include background-image('mm-icon-patent.gif', left, top);
-                    }
-                    &.icon-trade-marks {
-                        @include background-image('mm-icon-tm.gif', left, top);
-                    }
-                    &.icon-designs {
-                        @include background-image('mm-icon-design.gif', left, top);
-                    }
-                    &.icon-plant-breeders-rights {
-                        @include background-image('mm-icon-pbr.gif', left, top);
-                    }
-                    &.icon-understanding-ip, &.icon-ip-infringement, &.icon-tools--resources {
-                        display: none;
-                    }
+                    //not used in this instance.
+                    display: none;
                     @media only screen and (max-width: $break-point-medium - 1) {
                         display:none;
                     }
@@ -244,7 +243,7 @@ header {
                 .megamenu-tab-contents__title {
                     a {
                         float: left;
-                        font:$title-h4;
+                        font:$title-h4-bold;
                         /*font-family: $font-title-normal;*/
                         text-transform: uppercase;
                     }
@@ -262,7 +261,8 @@ header {
                     }
                 }
                 .learn-more {
-                    @include rounded-button-with-arrrow(transparent,$charcoal, 16px, 'arrow-right-charcoal-transparent.png');
+                    //@include rect-button-with-arrrow(transparent,$charcoal, 16px, 'arrow-right-charcoal-transparent.png');
+                    @include rect-button-with-arrrow();
                     float: right;
                     margin-bottom:20px;
                     &:hover {
@@ -271,6 +271,7 @@ header {
                         margin: 0px;
                         border: 0px !important;
                         width: 100%;
+                        display: none;
                     }
                 }
 
@@ -300,8 +301,10 @@ header {
                             border-top:1px solid $grey;
                         }
                         a {
-                            font:$title-h6;
-                            /*font-family: $font-title-normal;*/
+                            line-height: 30px;
+                            text-transform: none;
+                            font-family:$font-title-bold;
+                            font-size:16px;
                             float: left;
                             display: inline-block;
                             padding-right: 20px;
@@ -322,6 +325,14 @@ header {
                                 background-color:$light-grey !important;
                                 color:$dark-blue !important;
                             }
+                            &:after {
+                                margin-left:10px;
+                                padding-bottom:-5px;
+                                position: relative;
+                                top: 3px;
+                                @include fa-icon('\f0da', $dark-blue, 1.3em);
+                                height:30px;
+                            }
                         }
                         .megamenu-level-3 {
                             padding:0px;
@@ -331,6 +342,7 @@ header {
                             li {
                                 width: 100%;
                                 a{
+                                    color:$link-blue;
                                     font:$body-text;
                                     line-height: 30px;
                                     background: none;
@@ -341,7 +353,6 @@ header {
                                     }
                                     @media only screen and (max-width: $break-point-medium - 1) {
                                         float:none;
-                                        font:$body-text;
                                         width:100%;
                                         padding: 20px 20px 20px 40px !important;
                                         margin:0px;
@@ -351,7 +362,12 @@ header {
                                         @include background-image('arrow-right-charcoal-transparent.png', $x:20px);
                                         background-size:auto 10px;
                                         background-color:$light-grey !important;
-                                        color:$dark-blue !important;
+                                        color:$link-blue !important;
+                                    }
+                                    &:after {
+                                        margin-left:0;
+                                        padding-bottom:0;
+                                        content:none;
                                     }
                                 }
                             }

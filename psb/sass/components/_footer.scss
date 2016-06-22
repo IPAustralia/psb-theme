@@ -18,7 +18,7 @@ footer {
                 } 
                 a {
                     text-decoration: none;
-                    font: normal 17px montserratregular;
+                    font: normal 18px $font-title-bold;
                     padding: 20px 18px 20px 0;
                     @include background-image('arrow-right.png', right);
                     float:left;
@@ -43,9 +43,7 @@ footer {
                         a {
                             font-weight: normal;
                             padding: 0 10px 16px 0px;
-                            text-decoration: underline;
                             font: $body-text;
-                            font-size:15px;
                             background: transparent;
                             &:hover, &:active, &:focus{
                                 text-decoration: none;
@@ -60,7 +58,7 @@ footer {
     }
     .block-menu {
         .block-title {
-            font: normal 16px montserratregular;;
+            font: normal 18px $font-title-bold;
             font-size: 18px;
             margin: 0px;
             padding: $gap-medium 10px 0px ;
@@ -72,7 +70,7 @@ footer {
                 padding: 10px 10px 0 0 ;
                 a {
                     padding:0px 10px 0 0;
-                    border-right: 1px solid $charcoal;
+                    border-right: 1px solid $dark-blue;
                     font-size: 13px;
                     line-height: 12px;
                     &:hover {
@@ -89,16 +87,6 @@ footer {
                 }
 
             }
-        }
-    }
-}
-.footer {
-    .block-menu-block .nav .last ul li {
-        margin-top: -2px;
-        a {
-            padding-left: 50px;
-            margin-top: 5px;
-            padding-top: 8px;
         }
     }
 }

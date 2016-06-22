@@ -4,8 +4,8 @@
         <div class="container">
 
             <?php if ($logo): ?>
-                <a class="logo pull-left col-md-4" href="<?php print $front_page; ?>" title="<?php print t('IP Australia'); ?>">
-                    <img src="<?php print $logo; ?>" alt="<?php print t('IP Australia'); ?>" />
+                <a class="logo pull-left col-md-4" href="<?php print $front_page; ?>" title="<?php print t('Professional Standards Board'); ?>">
+                    <img src="<?php print $logo; ?>" alt="<?php print t('Professional Standards Board'); ?>" />
                 </a>
             <?php endif; ?>
             <div class="col-md-8 header-right">
@@ -45,4 +45,4 @@
     <?php endif; ?>
 
 </header>
-<img id="print-logo" src="<?php print $logo; ?>" alt="<?php print t('IP Australia'); ?>" />
+<img id="print-logo" src="<?php print $logo; ?>" alt="<?php print t('Professional Standards Board'); ?>" />

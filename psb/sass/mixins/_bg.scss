@@ -1,0 +1,9 @@
+@mixin topbg() {
+    background :transparent url('../images/bg/top-feature.png') no-repeat center top;
+	padding-bottom:500px;
+	margin-bottom:-500px;
+}
+@mixin botbg() {
+    background :transparent url('../images/bg/dark-feature-bottom.jpg') no-repeat center bottom;
+    background-size: cover;
+}

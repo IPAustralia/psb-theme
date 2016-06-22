@@ -151,6 +151,21 @@ function equaliseElementsHeight() {
     equalHeight('section#block-bean-all-about-pbr-block .panels-flexible-row-four_rows_with_1_x_3_x_3_x_2_columns-2 .panels-flexible-region-inside .list-content');
     equalHeight('section#block-bean-all-about-pbr-block .panels-flexible-row-four_rows_with_1_x_3_x_3_x_2_columns-3 .panels-flexible-region-inside .list-content');
 
+    /*equalHeight('#block-block-16 #become-benefit-practice #become-benefit-title #become-benefit-partnership #become-benefit-privileges');
+    equalHeight('#block-block-26');
+    equalHeight('#block-block-31');
+    equalHeight('#block-block-36');
+    equalHeight('#block-block-41');
+    equalHeight('#block-block-46');
+    equalHeight('#block-block-51');
+    equalHeight('#block-block-56');
+    equalHeight('#block-block-61');
+    equalHeight('#block-block-71');
+    equalHeight('#block-block-76');
+    equalHeight('#block-block-81');*/
+
+
+
     setTimeout(function () {
         equalHeight('#block-panels-mini-consultations-and-twitter-feed-2 .panel-panel .inside');
     }, 500);
@@ -643,23 +658,6 @@ function stickyMenu() {
         jQuery("#block-bean-ip-report-anchor-menu").stick_in_parent();
     }
 }
-
-
-//bold the "IP Australia" in the footer
-jQuery(document).ready(function () {
-        jQuery('h2.block-title').html(function (i, html) {
-            return html.replace(/(\w+\s\w+)/, '<strong>$1</strong>')
-    });
-});
-
-
-
-
-
-
-
-
-
 
 // Third party scripts
 function equalHeight($container) {

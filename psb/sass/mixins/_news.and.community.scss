@@ -140,7 +140,7 @@
                 .inside {
                     a {
                         margin-top: $gap-medium;
-                        @include rounded-button-with-arrrow($charcoal, white, 14px, 'arrow-right-transparent.png');
+                        @include rect-button-with-arrrow($charcoal, white, 14px, 'arrow-right-transparent.png');
                         border-color: $charcoal;
                         margin-right: 27px;
                         cursor: pointer;

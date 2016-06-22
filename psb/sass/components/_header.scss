@@ -13,7 +13,7 @@ header{
         }
         img {
             margin-top: 40px;
-            width: 84%;
+            width: 100%;
             @media only screen and (max-width: $break-point-medium - 1) {
                 width: 100%;
                 margin-top: 15px;
@@ -28,6 +28,7 @@ header{
         @media only screen and (max-width: $break-point-medium - 1) {
             padding-bottom:10px;
             border-bottom:2px solid $charcoal;
+            min-height: 100px;
         }
         .header-right {
             padding-right: 0px;
@@ -48,7 +49,7 @@ header{
                         float: left;
                         a {
                             display: block;
-                            color: $charcoal;
+                            color: $white;
                             line-height: 10px;
                         }
                     }
@@ -70,14 +71,15 @@ header{
 
             }
             a {
-                color: $charcoal;
+                color: $white;
             }
 
             .block-search-api-page {
-                background: $light-grey none repeat scroll 0 0;
+                background: $white none repeat scroll 0 0;
                 clear: both;
                 padding: 0;
                 width: 360px;
+                border-radius: 6px;
                 input.form-text {
                     background: transparent none repeat scroll 0 0;
                     border: 0 none;
@@ -100,16 +102,26 @@ header{
                     margin:0px;
                 }
                 .form-submit {
-                    @include background-image('link-search-26px.png');
+                    //@include background-image('link-search-26px.png');
+                    background: transparent;
                     border: medium none;
                     float: right;
                     height: 48px;
-                    margin-right: 11px;
+                    //margin-right: 51px;
                     padding: 0;
-                    text-indent: -9999px;
                     width: 33px;
+                    line-height: 0;
+                    visibility: hidden;
+                    margin-top: -3px;
+                    position: absolute;
+                    right: 50px;
                     &:active{
                         box-shadow: none;
+                    }
+                    &:after {
+                        @include fa-icon('\f002', $grey, 2em);
+                        line-height: 20px;
+                        visibility: visible;
                     }
                 }
             }
@@ -118,10 +130,9 @@ header{
                     padding: 10px 10px 10px 0px
                 }
                 a {
-                    /*font-weight: 600;*/
-                    font-size: 14px;
+                    font-size: 16px;
                     padding: 0px 10px 0 0;
-                    border-right: 1px solid $charcoal;
+                    border-right: 1px solid $white;
                     &:hover {
                         background: transparent;
                         text-decoration: underline;

@@ -1,3 +1,23 @@
+body {
+    article {
+        font: $body-text;
+        padding-top:20px;
+        p {
+            font: $body-text;
+        }
+
+        //anchors on headings:
+        h2, h3 {
+            &:before {
+                display: block;
+                content: " ";
+                margin-top: -85px;
+                height: 85px;
+                visibility: hidden;
+            }
+        }
+    }
+}
 article {
     @media only screen and (max-width: $break-point-midsmall) {
         padding:0px;
@@ -31,5 +51,25 @@ article {
     }
 }
 
+h1 {
+    font: $title-h1;
+}
+
     //hide print logo
     #print-logo {display:none;}
+
+    .container {
+        .container {
+            width: auto;
+        }
+    }
+
+section.feature-bg {
+    background :transparent url('../images/bg/top-feature.png') no-repeat center top;
+}
+
+.container {
+@media only screen and (min-width: 768px) {
+        width: auto;
+    }
+}

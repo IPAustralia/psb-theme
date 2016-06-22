@@ -17,7 +17,7 @@ function psb_js_alter(&$javascript) {
 function psb_preprocess_html(&$variables) {
 	//used to add class to body for the application process menu blocks to be targeted by generic styling.
 	//find if block is visible then add class to body
-   //dpm($variables);
+
   $node = menu_get_object();
   if (isset($node) && isset($variables['page']['content_top']['menu_block_8']) ||
   	isset($node) && isset($variables['page']['content_top']['menu_block_9']) ||
@@ -152,9 +152,9 @@ function psb_block_view_alter(&$data, $block) {
 }
 
 function psb_preprocess_block(&$vars) {
-	// add section-patents, section-trademarks, etc. so we can style based on
-	// section of the site we're in (e.g. blocks under the patents section are
-	// all tinted blue)
+	// add which section we are in to the body so we can style based on
+	// section of the site we're in 
+
 	$trail = menu_get_active_trail();
 	if (!empty($trail[1]['link_title'])) {
 		$vars['classes_array'][] = 'section-' . drupal_clean_css_identifier(strtolower($trail[1]['link_title']));
@@ -162,12 +162,10 @@ function psb_preprocess_block(&$vars) {
 	$bid = $vars['block']->module . '-' . $vars['block']->delta;
 	// some blocks need a <div class="container"> inside the <section>,
 	// wrapping the block content. add a theme suggestion for that.
-	if (in_array($bid, array(BLOCK_ID_FOOTER_MENU, BLOCK_ID_FOOTER_SUB_MENU)) ||
-		$vars['block']->region == 'content') /*|| $vars['block']->region == 'content_top')*/ {
+	if (in_array($bid, array(BLOCK_ID_FOOTER_MENU, BLOCK_ID_FOOTER_SUB_MENU)) /*||
+		$vars['block']->region == 'content'*/) /*|| $vars['block']->region == 'content_top')*/ {
 		$vars['theme_hook_suggestions'][] = 'block__with_container';
-	} else if ($vars['block']->region == 'content_top') {
-		$vars['theme_hook_suggestions'][] = 'block__app_process';
-	}
+	} 
 }
 
 function psb_preprocess_region(&$vars) {

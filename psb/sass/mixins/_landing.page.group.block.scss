@@ -132,7 +132,7 @@ section#id_of_section {
     .group-footer{
         a {
             margin-top: $gap-medium;
-            @include rounded-button-with-arrrow($line-color:$color, $arrow-icon:$arrow);
+            @include rect-button-with-arrrow($line-color:$color, $arrow-icon:$arrow);
         }
     }
 }

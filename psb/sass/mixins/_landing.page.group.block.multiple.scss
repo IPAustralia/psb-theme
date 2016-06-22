@@ -109,7 +109,7 @@ section#id_of_section {
     .panels-flexible-row-last {
         a{
             margin-top: $gap-medium;
-            @include rounded-button-with-arrrow();
+            @include rect-button-with-arrrow();
         }
     }
 
