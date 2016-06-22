@@ -643,13 +643,6 @@ footer {
       footer .block-menu .nav li.last a {
         border: none; }
 
-.footer .block-menu-block .nav .last ul li {
-  margin-top: -2px; }
-  .footer .block-menu-block .nav .last ul li a {
-    padding-left: 50px;
-    margin-top: 5px;
-    padding-top: 8px; }
-
 header nav #header-navigation-container {
   position: relative; }
   @media only screen and (max-width: 767px) {
@@ -807,7 +800,6 @@ header nav .nav-tabs {
       white-space: nowrap;
       overflow: hidden; }
       header nav .nav-tabs > li {
-        float: none;
         display: inline-block; }
         header nav .nav-tabs > li a {
           margin: 0 -2px; } }
@@ -1239,8 +1231,8 @@ body article {
   body article h2:before, body article h3:before {
     display: block;
     content: " ";
-    margin-top: -285px;
-    height: 285px;
+    margin-top: -85px;
+    height: 85px;
     visibility: hidden; }
 
 @media only screen and (max-width: 640px) {
@@ -1277,22 +1269,30 @@ h1 {
 section.feature-bg {
   background: transparent url("../images/bg/top-feature.png") no-repeat center top; }
 
+@media only screen and (min-width: 768px) {
+  .container {
+    width: auto; } }
+
 .view-content ul {
+  padding-left: 0;
   list-style-type: none; }
 
-article.node-attorney {
+article.node-attorney, .node-attorney-firm {
   width: 60%;
   margin: 10px 0px;
   padding: 10px 15px;
   background: #eeefee;
   border: 1px solid #d2d7d3; }
-  article.node-attorney h2 {
+  @media only screen and (max-width: 992px) {
+    article.node-attorney, .node-attorney-firm {
+      width: 90%; } }
+  article.node-attorney h2, .node-attorney-firm h2 {
     margin-top: 10px;
     font: normal 38px "merriweather-regular", serif;
     font-size: 24px;
     color: #143d55;
     border-bottom: 1px solid #d2d7d3; }
-  article.node-attorney footer {
+  article.node-attorney footer, .node-attorney-firm footer {
     display: none; }
 
 .view-forms .view-content .views-row {
@@ -1301,6 +1301,13 @@ article.node-attorney {
   padding: 10px 15px;
   background: #eeefee;
   border: 1px solid #d2d7d3; }
+
+.view-directory-of-firms .view-header {
+  padding: 20px;
+  font: normal 16px "opensans-regular", sans-serif; }
+
+body article.node-attorney header h2:before, body article.node-attorney-firm header h2:before {
+  display: none; }
 
 .front #block-system-main {
   display: none; }
@@ -1416,8 +1423,7 @@ footer.footer {
   text-align: center;
   padding-top: 2em;
   padding-bottom: 10px;
-  background-color: #d2d7d3;
-  margin-top: -10px; }
+  background-color: #d2d7d3; }
 
 #block-block-6 #title {
   color: #27749c;
@@ -1449,7 +1455,6 @@ footer.footer {
   background-color: rgba(39, 116, 156, 0.7); }
 
 #block-block-6 ul {
-  margin-top: 5%;
   margin-bottom: 0px;
   text-align: center; }
 
@@ -1471,9 +1476,6 @@ footer.footer {
   font: normal 16px "opensans-bold", sans-serif;
   margin-bottom: -1px;
   border: 1px solid #d2d7d3; }
-
-#block-block-6 #attorney {
-  margin-top: 5%; }
 
 #block-block-6 .nav-tabs > li, .nav-pills > li {
   float: none;

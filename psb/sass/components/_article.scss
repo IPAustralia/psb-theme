@@ -11,8 +11,8 @@ body {
             &:before {
                 display: block;
                 content: " ";
-                margin-top: -285px;
-                height: 285px;
+                margin-top: -85px;
+                height: 85px;
                 visibility: hidden;
             }
         }
@@ -68,3 +68,8 @@ section.feature-bg {
     background :transparent url('../images/bg/top-feature.png') no-repeat center top;
 }
 
+.container {
+@media only screen and (min-width: 768px) {
+        width: auto;
+    }
+}
