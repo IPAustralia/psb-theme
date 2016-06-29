@@ -15,8 +15,8 @@
 	</div>
 	<div id="incorp" class="tab-pane fade">
 	<!--p id="title"><i class="fa fa-user" aria-hidden="true"></i>&nbsp;&nbsp;Find a firm</p-->
-		<form action="">
-			<input type="search" name="Firm name" placeholder="Firm name"> <input type="search" name="Postcode" placeholder="Suburb or Postcode (optional)"> <input type="submit" value="Search">
+		<form action="/resources/directory-of-firms" method="get">
+			<input type="search" name="title" placeholder="Firm name"><input type="submit" value="Search">
 		</form> 
 		<p>OR <a href="/resources/directory-of-firms">view directory of firms</a></p>
 	</div>

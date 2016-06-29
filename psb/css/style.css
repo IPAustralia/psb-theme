@@ -1273,6 +1273,12 @@ section.feature-bg {
   .container {
     width: auto; } }
 
+article#node-13801 {
+  display: none; }
+
+.container ul li .media {
+  overflow: visible; }
+
 .view-content ul {
   padding-left: 0;
   list-style-type: none; }
