@@ -73,3 +73,12 @@ section.feature-bg {
         width: auto;
     }
 }
+
+//removing white space on resources landing
+article#node-13801 {
+    display: none;
+}
+
+.container ul li .media {
+    overflow: visible;
+}

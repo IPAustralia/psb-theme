@@ -19,9 +19,6 @@
 		<hr />
 		<ul>
 			<li><a href="node/13896#findings-toc">Tribunal findings&nbsp;&nbsp;<i class="fa fa-arrow-circle-right" aria-hidden="true"></i></a></li>
-			<li>Not guilty</li>
-			<li>Guilty of professional misconduct</li>
-			<li>Guilty of unprofessional conduct</li>
 		</ul>
 	</div>
 	<div id="public-relationship-FIXME3" class="col-md-3 col-centered col-fixed">
